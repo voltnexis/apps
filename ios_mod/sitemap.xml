@@ -4,33 +4,33 @@
     
     <!-- iOS MOD Main Platform Page -->
     <url>
-        <loc>https://voltnexis.github.io/apps/ios_mod/</loc>
+        <loc>https://voltnexis.github.io/apps/ios_mod/index.html</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
         <image:image>
-            <image:loc>https://voltnexis.github.io/apps/assets/ios-mod-platform.webp</image:loc>
+            <image:loc>https://voltnexis.github.io/apps/img/logo.webp</image:loc>
             <image:title>IPA MOD Downloads - VoltNexis</image:title>
         </image:image>
     </url>
     
     <!-- MOD Type Pages -->
     <url>
-        <loc>https://voltnexis.github.io/apps/ios_mod/?filter=premium</loc>
+        <loc>https://voltnexis.github.io/apps/ios_mod/index.html?filter=premium</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/ios_mod/?filter=adfree</loc>
+        <loc>https://voltnexis.github.io/apps/ios_mod/index.html?filter=adfree</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/ios_mod/?filter=unlimited</loc>
+        <loc>https://voltnexis.github.io/apps/ios_mod/index.html?filter=unlimited</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
@@ -38,14 +38,14 @@
     
     <!-- iOS Version Pages -->
     <url>
-        <loc>https://voltnexis.github.io/apps/ios_mod/?version=ios17</loc>
+        <loc>https://voltnexis.github.io/apps/ios_mod/index.html?version=ios17</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/ios_mod/?version=ios16</loc>
+        <loc>https://voltnexis.github.io/apps/ios_mod/index.html?version=ios16</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
@@ -53,14 +53,14 @@
     
     <!-- Jailbreak Status Pages -->
     <url>
-        <loc>https://voltnexis.github.io/apps/ios_mod/?jailbreak=not-required</loc>
+        <loc>https://voltnexis.github.io/apps/ios_mod/index.html?jailbreak=not-required</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/ios_mod/?jailbreak=required</loc>
+        <loc>https://voltnexis.github.io/apps/ios_mod/index.html?jailbreak=required</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
@@ -68,21 +68,21 @@
     
     <!-- Category Pages -->
     <url>
-        <loc>https://voltnexis.github.io/apps/ios_mod/?category=social</loc>
+        <loc>https://voltnexis.github.io/apps/ios_mod/index.html?category=social</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/ios_mod/?category=games</loc>
+        <loc>https://voltnexis.github.io/apps/ios_mod/index.html?category=games</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/ios_mod/?category=entertainment</loc>
+        <loc>https://voltnexis.github.io/apps/ios_mod/index.html?category=entertainment</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
