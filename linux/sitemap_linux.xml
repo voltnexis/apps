@@ -4,7 +4,7 @@
     
     <!-- Linux Main Platform Page -->
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -24,70 +24,70 @@
     
     <!-- Distribution-Specific Pages -->
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?distro=ubuntu</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?distro=ubuntu</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?distro=fedora</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?distro=fedora</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?distro=arch</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?distro=arch</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?distro=kali</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?distro=kali</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?distro=parrot</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?distro=parrot</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?distro=mint</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?distro=mint</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?distro=opensuse</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?distro=opensuse</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?distro=manjaro</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?distro=manjaro</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?distro=centos</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?distro=centos</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?distro=elementary</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?distro=elementary</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -95,21 +95,21 @@
     
     <!-- Package Type Pages -->
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?type=deb</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?type=deb</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?type=rpm</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?type=rpm</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?type=appimage</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?type=appimage</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
@@ -117,28 +117,28 @@
     
     <!-- Architecture Pages - 32-bit and 64-bit -->
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?arch=amd64</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?arch=amd64</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?arch=i386</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?arch=i386</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?arch=32bit</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?arch=32bit</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?arch=64bit</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?arch=64bit</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
@@ -146,28 +146,28 @@
     
     <!-- Category Pages -->
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?category=development</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?category=development</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?category=multimedia</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?category=multimedia</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?category=office</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?category=office</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://voltnexis.github.io/apps/linux/?category=system</loc>
+        <loc>https://voltnexis.github.io/apps/linux/index.html?category=system</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
