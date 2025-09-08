@@ -14,7 +14,7 @@ const apps = [
         size: "13MB",
         lastUpdated: "Aug 29, 2025",
         description: `<h3>🚀 Features</h3><p>Serve Tracker is a FREE Service Tool available for Android and other smartphones. ServeTrack uses your phone's Internet connection to Note and recall customers and orders.</p><h3>✨ What's New</h3><ul><li>High Storage</li><li>Improved noting features</li><li>Better file sharing capabilities</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/fgpixn8sl58815h/com.instagram.lite_474.0.0.14.1e",
+        downloadUrl: "https://ameeennn.github.io/servetracko",
         apkObb: false,
         oldVersions: [
             { version: "2.1.0", size: "12MB", url: "https://www.mediafire.com/file/def456/servetracko-v2.1.0.apk/file" },
