@@ -74,7 +74,7 @@ const apps = [
         name: "Visual Studio Code",
         developer: "Microsoft Corporation",
         tagline: "Code Editor for Linux",
-        icon: "../img/vscode.webp",
+        icon: "../img/vs_code.webp",
         rating: 4.7,
         category: "tools",
         trending: false,
