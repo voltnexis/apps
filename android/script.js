@@ -5,7 +5,7 @@ const apps = [
         name: "ServeTracko by VoltNexis",
         developer: "VoltNexis PVT LMTD",
         tagline: "Simple. Reliable. Fast.",
-        icon: "https://via.placeholder.com/60",
+        icon: "img/apk/instagram.webp",
         rating: 4.5,
         category: "social",
         trending: true,
