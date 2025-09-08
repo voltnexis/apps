@@ -26,7 +26,7 @@ const modApps = [
         name: "Spotify Premium MOD",
         developer: "Spotify AB (Modified)",
         tagline: "Premium Music Streaming Unlocked",
-        icon: "https://via.placeholder.com/60",
+        icon: "../img/spotify.webp",
         rating: 4.6,
         category: "entertainment",
         trending: true,
