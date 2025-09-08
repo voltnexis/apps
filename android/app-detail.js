@@ -129,33 +129,19 @@ function setupEventListeners() {
     });
 }
 
-function startMediaFireDownload(mediaFireUrl) {
-    // Extract direct download link from MediaFire URL
-    const directUrl = convertMediaFireUrl(mediaFireUrl);
-    
-    // Create hidden iframe for auto-download
-    const iframe = document.createElement('iframe');
-    iframe.style.display = 'none';
-    iframe.src = directUrl;
-    document.body.appendChild(iframe);
-    
-    // Remove iframe after 5 seconds
-    setTimeout(() => {
-        document.body.removeChild(iframe);
-    }, 5000);
+function startMediaFireDownload(downloadUrl) {
+    // Create download link and trigger auto-download
+    const link = document.createElement('a');
+    link.href = downloadUrl;
+    link.download = '';
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
     
     // Show download notification
-    const filename = mediaFireUrl.split('/').pop().replace('/file', '');
+    const filename = downloadUrl.split('/').pop();
     showDownloadNotification(filename);
-}
-
-function convertMediaFireUrl(mediaFireUrl) {
-    // Convert MediaFire URL to direct download
-    // This is a simplified version - in production you'd need proper MediaFire API
-    if (mediaFireUrl.includes('mediafire.com')) {
-        return mediaFireUrl.replace('/file/', '/download/').replace('/file', '');
-    }
-    return mediaFireUrl;
 }
 
 function loadOldVersions() {
