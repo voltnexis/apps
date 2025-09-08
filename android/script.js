@@ -76,7 +76,7 @@ const apps = [
         size: "45MB",
         lastUpdated: "Dec 14, 2024",
         description: `<h3>📸 Share Your Story</h3><p>Instagram is a simple way to capture and share the world's moments. Follow your friends and family to see what they're up to.</p><h3>🌟 Key Features</h3><ul><li>Stories that disappear after 24 hours</li><li>Reels for short, entertaining videos</li><li>Direct messaging with friends</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/fgpixn8sl58815h/com.instagram.lite_474.0.0.14.109.apk/file",
+        downloadUrl: "https://www.mediafire.com/file/zlkrcu4hrxoj7yh/com-instagram-android-396.0.0.46.242-VoltNexis.apk/file",
         apkObb: false,
         oldVersions: []
     },
