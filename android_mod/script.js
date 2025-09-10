@@ -1,7 +1,7 @@
 // Sample MOD APK data
 const modApps = [
     {
-        id: 11,
+        id: 21,
         name: "WhatsApp Plus MOD",
         developer: "WhatsApp Inc. (Modified)",
         tagline: "Enhanced WhatsApp with Premium Features",
@@ -22,7 +22,7 @@ const modApps = [
         ]
     },
     {
-        id: 12,
+        id: 22,
         name: "Spotify Premium MOD",
         developer: "Spotify AB (Modified)",
         tagline: "Premium Music Streaming Unlocked",
@@ -42,7 +42,7 @@ const modApps = [
         ]
     },
     {
-        id: 13,
+        id: 23,
         name: "Instagram Plus MOD",
         developer: "Instagram Inc. (Modified)",
         tagline: "Enhanced Instagram Experience",
@@ -112,6 +112,7 @@ const modApps = [
     lastUpdated: "Jun 12, 2024",
     description: `<h3>🔫 MOD Features</h3><ul><li>Unlimited ammo</li><li>All missions unlocked</li><li>Custom skins</li><li>Script injector enabled</li></ul>`,
     downloadUrl: "https://www.mediafire.com/file/idtbp20elydi2tt/GTA_3_APK%252BSCRIPTS.zip/file",
+    obbUrl: "https://www.mediafire.com/file/wkae6wtgy3nkqkk/com.rockstar.gta3.zip/file",
     apkObb: true,
     oldVersions: []
   },
@@ -130,6 +131,7 @@ const modApps = [
     lastUpdated: "May 25, 2024",
     description: `<h3>🏙️ MOD Features</h3><ul><li>Unlimited health</li><li>Cheat menu enabled</li><li>HD graphics patch</li><li>Script mods included</li></ul>`,
     downloadUrl: "https://www.mediafire.com/file/7qjpwtlirwsyr4a/GTA_SA_APK%252BSCRIPTS.zip/file",
+    obbUrl: "https://www.mediafire.com/file/1esp6lt5eljvbl2/com.rockstar.gtavc.zip/file",
     apkObb: true,
     oldVersions: []
   },
@@ -148,6 +150,8 @@ const modApps = [
     lastUpdated: "Apr 18, 2024",
     description: `<h3>🌴 MOD Features</h3><ul><li>Unlimited money</li><li>All weapons unlocked</li><li>Custom vehicles</li><li>Script injector included</li></ul>`,
     downloadUrl: "https://www.mediafire.com/file/gw1oxe7ienp36he/GTA_VC_APK%252BSCRIPT.zip/file",
+    obbUrl: "https://drive.google.com/uc?export=download&id=YOUR_OBB_FILE_ID",
+    obbUrl: "https://www.mediafire.com/file/1esp6lt5eljvbl2/com.rockstar.gtavc.zip/file",
     apkObb: true,
     oldVersions: []
   },
@@ -294,6 +298,7 @@ const modApps = [
     lastUpdated: "Jun 30, 2024",
     description: `<h3>🏎️ MOD Features</h3><ul><li>Unlimited gold & R$</li><li>All cars unlocked</li><li>No ads</li></ul>`,
     downloadUrl: "https://www.mediafire.com/file/8pt7he2dp2vsof9/real-racing-3_v13.5.1-an1.voltnexis.apk/file",
+    obbUrl: "https://drive.google.com/uc?export=download&id=YOUR_OBB_FILE_ID",
     apkObb: true,
     oldVersions: []
   },
