@@ -388,7 +388,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 10,
+        id: 24,
         name: "EUT Wallet",
         developer: "EUT Team",
         tagline: "Digital Wallet",
@@ -406,7 +406,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 16,
+        id: 25,
         name: "Helper",
         developer: "Helper Devs",
         tagline: "Utility Tool",
@@ -424,7 +424,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 17,
+        id: 26,
         name: "Appstore",
         developer: "Voltnexis Pvt Ltd",
         tagline: "Official App Store",
@@ -442,7 +442,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 18,
+        id: 27,
         name: "Codexaura AI",
         developer: "Voltnexis Pvt Ltd",
         tagline: "Smart AI Assistant",
@@ -460,7 +460,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 19,
+        id: 28,
         name: "Eshop",
         developer: "Voltnexis Pvt Ltd",
         tagline: "Online Shopping",
@@ -478,7 +478,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 20,
+        id: 29,
         name: "Fixmitra (Providers Hub)",
         developer: "Voltnexis Pvt Ltd",
         tagline: "Service Provider Hub",
@@ -496,7 +496,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 21,
+        id: 30,
         name: "Fixmitra",
         developer: "Voltnexis Pvt Ltd",
         tagline: "Repair & Service App",
@@ -514,7 +514,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 22,
+        id: 31,
         name: "PC Builds",
         developer: "Voltnexis Pvt Ltd",
         tagline: "Custom PC Builder",
@@ -532,7 +532,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 23,
+        id: 32,
         name: "Qoutes",
         developer: "Voltnexis Pvt Ltd",
         tagline: "Daily Inspiration",
@@ -550,7 +550,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 24,
+        id: 33,
         name: "VN Wallpapers",
         developer: "Voltnexis Pvt Ltd",
         tagline: "Wallpapers App",
@@ -568,7 +568,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 25,
+        id: 34,
         name: "Voltnexis",
         developer: "Voltnexis Pvt Ltd",
         tagline: "Main App",
@@ -586,7 +586,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 26,
+        id: 35,
         name: "Voltnexis Timer",
         developer: "Voltnexis Pvt Ltd",
         tagline: "Time Management",
@@ -604,7 +604,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 27,
+        id: 36,
         name: "Wandermatch",
         developer: "Voltnexis Pvt Ltd",
         tagline: "Travel & Meet",
@@ -622,7 +622,7 @@ const apps = [
         oldVersions: []
     },
     {
-        id: 28,
+        id: 37,
         name: "Webcreator",
         developer: "Voltnexis Pvt Ltd",
         tagline: "Website Builder",
