@@ -217,10 +217,11 @@ const apps = [
         trending: true,
         new: false,
         version: "1.8",
-        size: "12MB+",
+        size: "12MB+655MB",
         lastUpdated: "Jun 12, 2025",
         description: `<h3>🚗 Open World Action</h3><p>GTA 3 brings the revolutionary open-world experience to mobile.</p><h3>🎮 Features</h3><ul><li>Story missions</li><li>Open-world freedom</li><li>HD graphics</li></ul>`,
         downloadUrl: "https://www.mediafire.com/file/84rffifixkrjae5/GTA_3_v1.8_APKGW.VoltNexis.apk/file",
+        obbUrl: "https://www.mediafire.com/file/wkae6wtgy3nkqkk/com.rockstar.gta3.zip/file",
         apkObb: true,
         oldVersions: []
     },
