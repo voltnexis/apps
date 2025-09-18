@@ -437,7 +437,7 @@ const apps = [
         size: "501KB",
         lastUpdated: "Sep 2025",
         description: `<h3>🛒 App Store</h3><p>Browse and download any apps.</p><h3>✨ Features</h3><ul><li>Simple UI</li><li>Fast downloads</li><li>Secure apps</li></ul>`,
-        downloadUrl: "../appstore-v1.1-voltnexis.apk",
+        downloadUrl: "../files/appstore-v1.1-voltnexis.apk",
         apkObb: false,
         oldVersions: []
     },
@@ -455,7 +455,7 @@ const apps = [
         size: "183KB",
         lastUpdated: "Sep 2025",
         description: `<h3>🤖 Codexaura AI</h3><p>Your intelligent AI companion.</p><h3>✨ Features</h3><ul><li>Quick answers</li><li>Smart writing</li><li>AI chat</li></ul>`,
-        downloadUrl: "../codexaura-ai-v1.0-voltnexis.apk",
+        downloadUrl: "../files/codexaura-ai-v1.0-voltnexis.apk",
         apkObb: false,
         oldVersions: []
     },
