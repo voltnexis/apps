@@ -35,10 +35,10 @@ const apps = [
         size: "65MB",
         lastUpdated: "Dec 15, 2024",
         description: `<h3>🚀 Features</h3><p>WhatsApp Messenger is a FREE messaging app available for Android and other smartphones. WhatsApp uses your phone's Internet connection to message and call friends and family.</p><h3>✨ What's New</h3><ul><li>Enhanced security with end-to-end encryption</li><li>Improved group chat features</li><li>Better file sharing capabilities</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/wa123/whatsapp-messenger-v2.23.24.76.apk/file",
+        downloadUrl: "https://www.mediafire.com/file/xgct9xpchdlqyfg/whatsapp-messenger-2-24-19-17.apk/file",
         apkObb: true,
         oldVersions: [
-            { version: "2.23.20.76", size: "63MB", url: "https://www.mediafire.com/file/wa456/whatsapp-v2.23.20.76.apk/file" }
+            { version: "2.23.20.76", size: "63MB", url: "https://www.mediafire.com/file/t1umgjzc384x4dy/whatsapp-messenger-2-24-12-79.apk/file" }
         ]
     },
     {
@@ -166,7 +166,7 @@ const apps = [
         size: "25MB",
         lastUpdated: "Sep 10, 2025",
         description: `<h3>🤖 AI Assistant</h3><p>ChatGPT helps you with conversations, coding, and creative writing.</p><h3>📱 Features</h3><ul><li>AI-powered chat</li><li>Code and text generation</li><li>Cross-platform support</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/chatgpt/chatgpt.apk/file",
+        downloadUrl: "https://www.mediafire.com/file/lqrh3jc5n4db37k/ChatGPT_v3.8.8.0.apk/file",
         apkObb: false,
         oldVersions: []
     },
@@ -184,7 +184,7 @@ const apps = [
         size: "18MB",
         lastUpdated: "Aug 20, 2025",
         description: `<h3>💳 Wallet App</h3><p>EUT Wallet helps manage your digital money securely.</p><h3>📱 Features</h3><ul><li>Send & receive funds</li><li>Transaction history</li><li>Secure encryption</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/eutwallet/eutwallet.apk/file",
+        downloadUrl: "https://www.mediafire.com/file/58qj1z6r3xs9le9/Eutwallet.apk/file",
         apkObb: false,
         oldVersions: []
     },
@@ -202,7 +202,7 @@ const apps = [
         size: "30MB",
         lastUpdated: "Jul 18, 2025",
         description: `<h3>👨‍👩‍👧 Family Management</h3><p>Google Family helps you manage kids' accounts, apps, and screen time.</p><h3>📱 Features</h3><ul><li>Parental controls</li><li>Location tracking</li><li>Screen time limits</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/googlefamily/googlefamily.apk/file",
+        downloadUrl: "https://www.mediafire.com/file/ujd4oolcj4sqspc/google-family-link-2-30-0.VoltNexis.apk/file",
         apkObb: false,
         oldVersions: []
     },
@@ -220,14 +220,14 @@ const apps = [
         size: "700MB",
         lastUpdated: "Jun 12, 2025",
         description: `<h3>🚗 Open World Action</h3><p>GTA 3 brings the revolutionary open-world experience to mobile.</p><h3>🎮 Features</h3><ul><li>Story missions</li><li>Open-world freedom</li><li>HD graphics</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/gta3/gta3.apk/file",
+        downloadUrl: "https://www.mediafire.com/file/84rffifixkrjae5/GTA_3_v1.8_APKGW.VoltNexis.apk/file",
         apkObb: true,
         oldVersions: []
     },
     {
         id: 13,
         name: "GTA 4",
-        developer: "Rockstar Games",
+        developer: ".....",
         tagline: "Liberty City Stories",
         icon: "../img/gta4.webp",
         rating: 4.8,
@@ -235,10 +235,10 @@ const apps = [
         trending: true,
         new: false,
         version: "2.0",
-        size: "1.5GB",
+        size: "229MB",
         lastUpdated: "May 8, 2025",
         description: `<h3>🏙️ Next-Gen Open World</h3><p>Experience Liberty City with HD graphics and action-packed missions.</p><h3>🎮 Features</h3><ul><li>Massive open world</li><li>Realistic physics</li><li>Epic storyline</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/gta4/gta4.apk/file",
+        downloadUrl: "https://www.mediafire.com/file/fe2zd89oi6oibb7/GTA_4_Mobile_Edition_1_1.0.apk/file",
         apkObb: true,
         oldVersions: []
     },
@@ -253,10 +253,10 @@ const apps = [
         trending: false,
         new: false,
         version: "1.2",
-        size: "900MB",
+        size: "913MB",
         lastUpdated: "Apr 20, 2025",
         description: `<h3>🕹️ Handheld Open World</h3><p>A unique top-down GTA with action, missions, and crime-filled gameplay.</p><h3>🎮 Features</h3><ul><li>Top-down GTA style</li><li>Story missions</li><li>Fun mini-games</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/gtactw/gtactw.apk/file",
+        downloadUrl: "https://www.mediafire.com/file/oy7512ufnhpxmcs/com.rockstargames.gtactw_4.4.221-VoltNexis.apk/file",
         apkObb: true,
         oldVersions: []
     },
@@ -271,10 +271,10 @@ const apps = [
         trending: true,
         new: false,
         version: "3.1.5",
-        size: "10MB",
+        size: "18MB",
         lastUpdated: "Sep 1, 2025",
         description: `<h3>📥 Mod APKs</h3><p>HappyMod provides modded versions of popular apps and games.</p><h3>📱 Features</h3><ul><li>Thousands of mods</li><li>Fast downloads</li><li>User community</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/happymod/happymod.apk/file",
+        downloadUrl: "https://www.mediafire.com/file/zf4f0z9gua5kkom/HappyMod-Download-3-1-6.apk/file",
         apkObb: false,
         oldVersions: []
     },
@@ -310,7 +310,7 @@ const apps = [
         size: "2MB",
         lastUpdated: "Sep 15, 2025",
         description: `<h3>📷 Social Media</h3><p>Instagram Lite is the fast, lightweight version of Instagram.</p><h3>📱 Features</h3><ul><li>Photos & reels</li><li>Stories support</li><li>DMs and likes</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/instagramlite/instagram_lite.apk/file",
+        downloadUrl: "https://www.mediafire.com/file/xfcbh7uw4fp6o9e/instagram-lite-411-0-0-10-112.apk/file",
         apkObb: false,
         oldVersions: []
     },
@@ -328,7 +328,7 @@ const apps = [
         size: "60MB",
         lastUpdated: "Jul 28, 2025",
         description: `<h3>🐍 Python IDE</h3><p>Pydroid lets you code and run Python on your Android device.</p><h3>📱 Features</h3><ul><li>Offline Python compiler</li><li>Library manager (pip)</li><li>Easy UI for beginners</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/pydroid/pydroid.apk/file",
+        downloadUrl: "https://www.mediafire.com/file/svnk87uhehinw0t/PyDroid.apk/file",
         apkObb: false,
         oldVersions: []
     },
@@ -343,10 +343,10 @@ const apps = [
         trending: true,
         new: false,
         version: "5.9",
-        size: "20MB",
+        size: "17MB",
         lastUpdated: "Aug 25, 2025",
         description: `<h3>📥 APK Store</h3><p>Uptodown is a safe app store with thousands of APKs.</p><h3>📱 Features</h3><ul><li>Wide app selection</li><li>Older versions</li><li>Free downloads</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/uptodown/uptodown.apk/file",
+        downloadUrl: "https://www.mediafire.com/file/c0045tl34e2a243/UPTODOWN_APP-STORE.apk/file",
         apkObb: false,
         oldVersions: []
     },
@@ -379,10 +379,10 @@ const apps = [
         trending: false,
         new: false,
         version: "1.0.9",
-        size: "7MB",
+        size: "5MB",
         lastUpdated: "Aug 30, 2025",
         description: `<h3>📂 File Manager</h3><p>ZArchiver helps you manage and extract compressed files.</p><h3>📱 Features</h3><ul><li>ZIP, RAR, 7Z support</li><li>Password protection</li><li>Simple UI</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/zarchiver/zarchiver.apk/file",
+        downloadUrl: "https://www.mediafire.com/file/t70vm57n2bk4yap/Zarchiver.apk/file",
         apkObb: false,
         oldVersions: []
     }
