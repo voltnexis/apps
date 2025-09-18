@@ -36,7 +36,7 @@ const apps = [
         lastUpdated: "Dec 15, 2024",
         description: `<h3>🚀 Features</h3><p>WhatsApp Messenger is a FREE messaging app available for Android and other smartphones. WhatsApp uses your phone's Internet connection to message and call friends and family.</p><h3>✨ What's New</h3><ul><li>Enhanced security with end-to-end encryption</li><li>Improved group chat features</li><li>Better file sharing capabilities</li></ul>`,
         downloadUrl: "https://www.mediafire.com/file/xgct9xpchdlqyfg/whatsapp-messenger-2-24-19-17.apk/file",
-        apkObb: true,
+        apkObb: false,
         oldVersions: [
             { version: "2.24.12.79", size: "56MB", url: "https://www.mediafire.com/file/t1umgjzc384x4dy/whatsapp-messenger-2-24-12-79.apk/file" }
         ]
@@ -239,7 +239,7 @@ const apps = [
         lastUpdated: "May 8, 2025",
         description: `<h3>🏙️ Next-Gen Open World</h3><p>Experience Liberty City with HD graphics and action-packed missions.</p><h3>🎮 Features</h3><ul><li>Massive open world</li><li>Realistic physics</li><li>Epic storyline</li></ul>`,
         downloadUrl: "https://www.mediafire.com/file/fe2zd89oi6oibb7/GTA_4_Mobile_Edition_1_1.0.apk/file",
-        apkObb: true,
+        apkObb: false,
         oldVersions: []
     },
     {
@@ -257,7 +257,7 @@ const apps = [
         lastUpdated: "Apr 20, 2025",
         description: `<h3>🕹️ Handheld Open World</h3><p>A unique top-down GTA with action, missions, and crime-filled gameplay.</p><h3>🎮 Features</h3><ul><li>Top-down GTA style</li><li>Story missions</li><li>Fun mini-games</li></ul>`,
         downloadUrl: "https://www.mediafire.com/file/oy7512ufnhpxmcs/com.rockstargames.gtactw_4.4.221-VoltNexis.apk/file",
-        apkObb: true,
+        apkObb: false,
         oldVersions: []
     },
     {
