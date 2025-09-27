@@ -391,7 +391,107 @@ const apps = [
             { type: "64-bit", size: "180MB", url: "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2400120598/AcroRdrDCx642500011000_MUI.exe" }
         ],
         oldVersions: []
-    }
+    },
+    {
+    id: 21,
+    name: "7-Zip",
+    developer: "Igor Pavlov",
+    tagline: "Powerful File Archiver",
+    icon: "../img/7zip.webp",
+    rating: 4.7,
+    category: "utilities",
+    trending: false,
+    new: false,
+    version: "24.08 (latest)",
+    size: "2MB",
+    windowsVersion: "7+",
+    lastUpdated: "2024",
+    description: `<h3>📦 7-Zip</h3><p>7-Zip is a free and open-source file archiver with a high compression ratio.</p><h3>✨ Features</h3><ul><li>7z, ZIP, RAR, TAR support</li><li>Strong AES-256 encryption</li><li>Extremely lightweight</li></ul>`,
+    downloads: [
+      { type: "Installer (x64)", size: "≈2MB", directLink: "https://www.7-zip.org/a/7z2408-x64.exe" }
+    ],
+    oldVersions: []
+  },
+  {
+    id: 22,
+    name: "VLC Media Player",
+    developer: "VideoLAN",
+    tagline: "Free Universal Media Player",
+    icon: "../img/vlc.webp",
+    rating: 4.8,
+    category: "multimedia",
+    trending: true,
+    new: false,
+    version: "3.0.21 (latest)",
+    size: "40MB",
+    windowsVersion: "7+",
+    lastUpdated: "2025",
+    description: `<h3>🎥 VLC</h3><p>VLC is a free, open-source, cross-platform multimedia player that plays most multimedia files, as well as DVDs, audio CDs, VCDs, and streaming protocols.</p><h3>🔧 Features</h3><ul><li>Plays everything</li><li>No codecs needed</li><li>Highly customizable</li></ul>`,
+    downloads: [
+      { type: "Installer (EXE)", size: "≈40MB", directLink: "https://get.videolan.org/vlc/3.0.21/win64/vlc-3.0.21-win64.exe" }
+    ],
+    oldVersions: []
+  },
+  {
+    id: 23,
+    name: "OBS Studio",
+    developer: "OBS Project",
+    tagline: "Live Streaming & Recording",
+    icon: "../img/obs.webp",
+    rating: 4.6,
+    category: "multimedia",
+    trending: true,
+    new: false,
+    version: "30.1.2",
+    size: "120MB",
+    windowsVersion: "10+",
+    lastUpdated: "2025",
+    description: `<h3>📡 OBS Studio</h3><p>OBS Studio is free and open source software for video recording and live streaming.</p><h3>✨ Features</h3><ul><li>Unlimited scenes</li><li>Real-time video/audio mixing</li><li>Powerful plugin support</li></ul>`,
+    downloads: [
+      { type: "Installer (EXE)", size: "≈120MB", directLink: "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.1.2-Full-Installer-x64.exe" }
+    ],
+    oldVersions: []
+  },
+  {
+    id: 24,
+    name: "Notepad++",
+    developer: "Don Ho",
+    tagline: "Advanced Text Editor",
+    icon: "../img/notepadpp.webp",
+    rating: 4.5,
+    category: "development",
+    trending: false,
+    new: false,
+    version: "8.6.9",
+    size: "5MB",
+    windowsVersion: "7+",
+    lastUpdated: "2025",
+    description: `<h3>📝 Notepad++</h3><p>Notepad++ is a free source code editor and Notepad replacement that supports several programming languages.</p><h3>🔧 Features</h3><ul><li>Syntax highlighting</li><li>Multi-document tab interface</li><li>Plugin ecosystem</li></ul>`,
+    downloads: [
+      { type: "Installer (EXE)", size: "≈5MB", directLink: "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.9/npp.8.6.9.Installer.x64.exe" }
+    ],
+    oldVersions: []
+  },
+  {
+    id: 25,
+    name: "LibreOffice",
+    developer: "The Document Foundation",
+    tagline: "Free Office Suite",
+    icon: "../img/libreoffice.webp",
+    rating: 4.3,
+    category: "productivity",
+    trending: false,
+    new: false,
+    version: "24.2.3",
+    size: "330MB",
+    windowsVersion: "7+",
+    lastUpdated: "2025",
+    description: `<h3>📑 LibreOffice</h3><p>LibreOffice is a powerful open source office suite, successor to OpenOffice, with clean interface and feature-rich tools.</p><h3>🔧 Features</h3><ul><li>Writer, Calc, Impress</li><li>MS Office file compatibility</li><li>Free and open-source</li></ul>`,
+    downloads: [
+      { type: "Installer (MSI)", size: "≈330MB", directLink: "https://download.documentfoundation.org/libreoffice/stable/24.2.3/win/x86_64/LibreOffice_24.2.3_Win_x86-64.msi" }
+    ],
+    oldVersions: []
+  }
 ];
 
 let currentFilter = 'all';
