@@ -392,66 +392,6 @@ const apps = [
         ],
         oldVersions: []
     },
-    {
-    id: 21,
-    name: "7-Zip",
-    developer: "Igor Pavlov",
-    tagline: "Powerful File Archiver",
-    icon: "../img/7zip.webp",
-    rating: 4.7,
-    category: "utilities",
-    trending: false,
-    new: false,
-    version: "24.08 (latest)",
-    size: "2MB",
-    windowsVersion: "7+",
-    lastUpdated: "2024",
-    description: `<h3>📦 7-Zip</h3><p>7-Zip is a free and open-source file archiver with a high compression ratio.</p><h3>✨ Features</h3><ul><li>7z, ZIP, RAR, TAR support</li><li>Strong AES-256 encryption</li><li>Extremely lightweight</li></ul>`,
-    downloads: [
-      { type: "Installer (x64)", size: "≈2MB", directLink: "https://www.7-zip.org/a/7z2408-x64.exe" }
-    ],
-    oldVersions: []
-  },
-  {
-    id: 23,
-    name: "OBS Studio",
-    developer: "OBS Project",
-    tagline: "Live Streaming & Recording",
-    icon: "../img/obs.webp",
-    rating: 4.6,
-    category: "multimedia",
-    trending: true,
-    new: false,
-    version: "30.1.2",
-    size: "120MB",
-    windowsVersion: "10+",
-    lastUpdated: "2025",
-    description: `<h3>📡 OBS Studio</h3><p>OBS Studio is free and open source software for video recording and live streaming.</p><h3>✨ Features</h3><ul><li>Unlimited scenes</li><li>Real-time video/audio mixing</li><li>Powerful plugin support</li></ul>`,
-    downloads: [
-      { type: "Installer (EXE)", size: "≈120MB", directLink: "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.1.2-Full-Installer-x64.exe" }
-    ],
-    oldVersions: []
-  },
-  {
-    id: 24,
-    name: "Notepad++",
-    developer: "Don Ho",
-    tagline: "Advanced Text Editor",
-    icon: "../img/notepadpp.webp",
-    rating: 4.5,
-    category: "development",
-    trending: false,
-    new: false,
-    version: "8.6.9",
-    size: "5MB",
-    windowsVersion: "7+",
-    lastUpdated: "2025",
-    description: `<h3>📝 Notepad++</h3><p>Notepad++ is a free source code editor and Notepad replacement that supports several programming languages.</p><h3>🔧 Features</h3><ul><li>Syntax highlighting</li><li>Multi-document tab interface</li><li>Plugin ecosystem</li></ul>`,
-    downloads: [
-      { type: "Installer (EXE)", size: "≈5MB", directLink: "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.9/npp.8.6.9.Installer.x64.exe" }
-    ],
-    oldVersions: []
-  },
   {
     id: 25,
     name: "LibreOffice",
