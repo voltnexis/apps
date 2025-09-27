@@ -696,6 +696,107 @@ const apps = [
       { type: "64-bit MSI", size: "≈160MB", url: "https://download.oracle.com/java/23/latest/jdk-23_windows-x64_bin.msi" }
     ],
     oldVersions: []
+},
+{
+    id: 36,
+    name: "TeamViewer",
+    developer: "TeamViewer GmbH",
+    tagline: "Remote Access & Support",
+    icon: "../img/teamviewer.webp",
+    rating: 4.5,
+    category: "utilities",
+    trending: false,
+    new: false,
+    version: "16.1.6",
+    size: "35MB",
+    windowsVersion: "7+",
+    lastUpdated: "2025",
+    description: `<h3>🔑 Remote Access</h3><p>TeamViewer allows remote control, desktop sharing, online meetings, and file transfer between computers.</p><h3>✨ Features</h3><ul><li>Remote desktop access</li><li>File transfer</li><li>Multi-platform support</li></ul>`,
+    downloads: [
+        { type: "64-bit EXE", size: "≈35MB", url: "https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe" },
+        { type: "32-bit EXE", size: "≈33MB", url: "https://download.teamviewer.com/download/TeamViewer_Setup.exe" }
+    ],
+    oldVersions: []
+},
+{
+    id: 37,
+    name: "Postman",
+    developer: "Postman Inc.",
+    tagline: "API Development & Testing",
+    icon: "../img/postman.webp",
+    rating: 4.6,
+    category: "development",
+    trending: true,
+    new: false,
+    version: "10.15.5",
+    size: "160MB",
+    windowsVersion: "10+",
+    lastUpdated: "2025",
+    description: `<h3>🛠 API Tool</h3><p>Postman simplifies API development by providing a powerful GUI for testing, debugging, and sharing APIs.</p><h3>✨ Features</h3><ul><li>API requests builder</li><li>Automated testing</li><li>Collaboration tools</li></ul>`,
+    downloads: [
+        { type: "64-bit EXE", size: "≈160MB", url: "https://dl.pstmn.io/download/latest/win64" }
+    ],
+    oldVersions: []
+},
+{
+    id: 38,
+    name: "Docker Desktop",
+    developer: "Docker Inc.",
+    tagline: "Containerization Platform",
+    icon: "../img/docker.webp",
+    rating: 4.7,
+    category: "development",
+    trending: true,
+    new: false,
+    version: "24.1.0",
+    size: "500MB",
+    windowsVersion: "10+",
+    lastUpdated: "2025",
+    description: `<h3>🐳 Docker</h3><p>Docker Desktop enables developers to build, share, and run containerized applications seamlessly on Windows.</p><h3>✨ Features</h3><ul><li>Container management</li><li>Kubernetes integration</li><li>Cross-platform images</li></ul>`,
+    downloads: [
+        { type: "Installer (EXE)", size: "≈500MB", url: "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe" }
+    ],
+    oldVersions: []
+},
+{
+    id: 39,
+    name: "Android Studio",
+    developer: "Google LLC",
+    tagline: "Android App Development IDE",
+    icon: "../img/android_studio.webp",
+    rating: 4.5,
+    category: "development",
+    trending: false,
+    new: false,
+    version: "2025.1.1",
+    size: "1.2GB",
+    windowsVersion: "10+",
+    lastUpdated: "2025",
+    description: `<h3>📱 Android IDE</h3><p>Android Studio is the official IDE for Android app development, featuring code editing, debugging, and testing tools.</p><h3>✨ Features</h3><ul><li>Code editor & debugger</li><li>Emulator for testing</li><li>Integrated Gradle build system</li></ul>`,
+    downloads: [
+        { type: "Installer (EXE)", size: "≈1.2GB", url: "https://redirector.gvt1.com/edgedl/android/studio/install/2025.1.1.0/android-studio-2025.1.1.0-windows.exe" }
+    ],
+    oldVersions: []
+},
+{
+    id: 40,
+    name: "WinSCP",
+    developer: "Martin Prikryl",
+    tagline: "SFTP, FTP & SCP Client",
+    icon: "../img/winscp.webp",
+    rating: 4.6,
+    category: "utilities",
+    trending: false,
+    new: false,
+    version: "6.0.1",
+    size: "10MB",
+    windowsVersion: "7+",
+    lastUpdated: "2025",
+    description: `<h3>📂 File Transfer</h3><p>WinSCP is a free SFTP, SCP, and FTP client for secure file transfers between local and remote systems.</p><h3>✨ Features</h3><ul><li>Graphical file manager</li><li>Integrated text editor</li><li>Scriptable transfers</li></ul>`,
+    downloads: [
+        { type: "Installer (EXE)", size: "≈10MB", url: "https://winscp.net/download/WinSCP-6.0.1-Setup.exe" }
+    ],
+    oldVersions: []
 }
 ];
 
