@@ -413,26 +413,6 @@ const apps = [
     oldVersions: []
   },
   {
-    id: 22,
-    name: "VLC Media Player",
-    developer: "VideoLAN",
-    tagline: "Free Universal Media Player",
-    icon: "../img/vlc.webp",
-    rating: 4.8,
-    category: "multimedia",
-    trending: true,
-    new: false,
-    version: "3.0.21 (latest)",
-    size: "40MB",
-    windowsVersion: "7+",
-    lastUpdated: "2025",
-    description: `<h3>🎥 VLC</h3><p>VLC is a free, open-source, cross-platform multimedia player that plays most multimedia files, as well as DVDs, audio CDs, VCDs, and streaming protocols.</p><h3>🔧 Features</h3><ul><li>Plays everything</li><li>No codecs needed</li><li>Highly customizable</li></ul>`,
-    downloads: [
-      { type: "Installer (EXE)", size: "≈40MB", directLink: "https://get.videolan.org/vlc/3.0.21/win64/vlc-3.0.21-win64.exe" }
-    ],
-    oldVersions: []
-  },
-  {
     id: 23,
     name: "OBS Studio",
     developer: "OBS Project",
