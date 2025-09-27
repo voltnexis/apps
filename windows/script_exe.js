@@ -1,29 +1,6 @@
 // Windows software data with complete details
 const apps = [
     {
-        id: 1,
-        name: "ServeTracko by VoltNexis",
-        developer: "VoltNexis PVT LMTD",
-        tagline: "Simple. Reliable. Fast.",
-        icon: "../img/whatsapp.webp",
-        rating: 4.5,
-        category: "tools",
-        trending: true,
-        new: true,
-        version: "2.2.0",
-        size: "13MB",
-        windowsVersion: "10+",
-        lastUpdated: "Aug 29, 2025",
-        description: `<h3>🚀 Features</h3><p>Serve Tracker is a FREE Service Tool available for Windows PC. ServeTrack uses your computer's Internet connection to Note and recall customers and orders.</p><h3>✨ What's New</h3><ul><li>High Storage</li><li>Improved noting features</li><li>Better file sharing capabilities</li></ul>`,
-        downloads: [
-            { type: "64-bit", size: "13MB", url: "https://www.mediafire.com/file/abc123/servetracko-v2.2.0-x64.exe/file" },
-            { type: "32-bit", size: "12MB", url: "https://www.mediafire.com/file/abc124/servetracko-v2.2.0-x86.exe/file" }
-        ],
-        oldVersions: [
-            { version: "2.1.0", downloads: [{ type: "64-bit", size: "12MB", url: "https://www.mediafire.com/file/def456/servetracko-v2.1.0-x64.exe/file" }] }
-        ]
-    },
-    {
         id: 2,
         name: "Discord",
         developer: "Discord Inc.",
@@ -55,14 +32,14 @@ const apps = [
         category: "games",
         trending: true,
         new: false,
-        version: "3.5.17",
+        version: "1.0.0.91",
         size: "2.5MB",
         windowsVersion: "10+",
         lastUpdated: "Dec 12, 2024",
         description: `<h3>🎮 Gaming Platform</h3><p>Steam is the ultimate destination for playing, discussing, and creating games. Access thousands of games and connect with millions of players.</p><h3>🆕 Latest Updates</h3><ul><li>New Steam Deck compatibility</li><li>Enhanced library interface</li><li>Improved download speeds</li></ul>`,
         downloads: [
-            { type: "64-bit", size: "2.5MB", url: "https://www.mediafire.com/file/st123/steam-v3.5.17-x64.exe/file" },
-            { type: "32-bit", size: "2.3MB", url: "https://www.mediafire.com/file/st124/steam-v3.5.17-x86.exe/file" }
+            { type: "64-bit", size: "2.5MB", url: "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe" },
+            { type: "32-bit", size: "2.3MB", url: "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe" }
         ],
         oldVersions: [
             { version: "3.5.16", downloads: [{ type: "64-bit", size: "2.4MB", url: "https://www.mediafire.com/file/stold123/steam-v3.5.16-x64.exe/file" }] }
@@ -78,14 +55,14 @@ const apps = [
         category: "tools",
         trending: false,
         new: false,
-        version: "119.0.6045.193",
+        version: "129.0.6668.71",
         size: "95MB",
         windowsVersion: "10+",
         lastUpdated: "Dec 14, 2024",
         description: `<h3>🌐 Web Browser</h3><p>Google Chrome is a fast, secure, and free web browser built for the modern web. Browse with confidence and speed.</p><h3>🌟 Key Features</h3><ul><li>Fast browsing and search</li><li>Built-in security features</li><li>Sync across all devices</li></ul>`,
         downloads: [
-            { type: "64-bit", size: "95MB", url: "https://www.mediafire.com/file/ch123/chrome-v119.0.6045.193-x64.exe/file" },
-            { type: "32-bit", size: "90MB", url: "https://www.mediafire.com/file/ch124/chrome-v119.0.6045.193-x86.exe/file" }
+            { type: "64-bit", size: "95MB", url: "https://dl.google.com/chrome/install/ChromeStandaloneSetup64.exe" },
+            { type: "32-bit", size: "90MB", url: "https://dl.google.com/chrome/install/ChromeStandaloneSetup.exe" }
         ],
         oldVersions: []
     },
@@ -99,14 +76,14 @@ const apps = [
         category: "entertainment",
         trending: false,
         new: false,
-        version: "3.0.18",
+        version: "3.0.21",
         size: "40MB",
         windowsVersion: "7+",
         lastUpdated: "Dec 13, 2024",
         description: `<h3>🎬 Media Player</h3><p>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files.</p><h3>🔒 Features</h3><ul><li>Plays all media formats</li><li>No codec packs needed</li><li>Completely free</li></ul>`,
         downloads: [
-            { type: "64-bit", size: "40MB", url: "https://www.mediafire.com/file/vlc123/vlc-v3.0.18-x64.exe/file" },
-            { type: "32-bit", size: "38MB", url: "https://www.mediafire.com/file/vlc124/vlc-v3.0.18-x86.exe/file" }
+            { type: "64-bit", size: "40MB", url: "https://download.videolan.org/vlc/3.0.21/win64/vlc-3.0.21-win64.exe" },
+            { type: "32-bit", size: "38MB", url: "https://download.videolan.org/vlc/3.0.21/win32/vlc-3.0.21-win32.exe" }
         ],
         oldVersions: []
     },
@@ -120,13 +97,13 @@ const apps = [
         category: "entertainment",
         trending: false,
         new: false,
-        version: "1.2.25.1011",
+        version: "1.2.38.1447.g1a4c1e2c",
         size: "85MB",
         windowsVersion: "10+",
         lastUpdated: "Dec 11, 2024",
         description: `<h3>🎵 Music Streaming</h3><p>Spotify gives you instant access to millions of songs and podcasts. Listen to your favorite music and discover new tracks.</p><h3>🎧 Premium Features</h3><ul><li>Ad-free music streaming</li><li>Offline downloads</li><li>High-quality audio</li></ul>`,
         downloads: [
-            { type: "64-bit", size: "85MB", url: "https://www.mediafire.com/file/sp123/spotify-v1.2.25.1011-x64.exe/file" }
+            { type: "64-bit", size: "85MB", url: "https://download.scdn.co/SpotifySetup.exe" }
         ],
         oldVersions: []
     },
@@ -140,14 +117,13 @@ const apps = [
         category: "tools",
         trending: false,
         new: true,
-        version: "1.85.1",
+        version: "1.95.1",
         size: "95MB",
         windowsVersion: "10+",
         lastUpdated: "Dec 17, 2024",
         description: `<h3>💻 Code Editor</h3><p>Visual Studio Code is a lightweight but powerful source code editor. It comes with built-in support for JavaScript, TypeScript and Node.js.</p><h3>🔧 Features</h3><ul><li>IntelliSense code completion</li><li>Built-in Git integration</li><li>Extensive extension marketplace</li></ul>`,
         downloads: [
-            { type: "64-bit", size: "95MB", url: "https://www.mediafire.com/file/vsc123/vscode-v1.85.1-x64.exe/file" },
-            { type: "32-bit", size: "90MB", url: "https://www.mediafire.com/file/vsc124/vscode-v1.85.1-x86.exe/file" }
+            { type: "64-bit", size: "95MB", url: "https://update.code.visualstudio.com/latest/win32-x64-user/stable" }
         ],
         oldVersions: []
     },
@@ -161,13 +137,14 @@ const apps = [
         category: "entertainment",
         trending: false,
         new: false,
-        version: "30.0.2",
+        version: "30.2.3",
         size: "120MB",
         windowsVersion: "10+",
         lastUpdated: "Dec 10, 2024",
         description: `<h3>🎥 Streaming Software</h3><p>OBS Studio is free and open source software for video recording and live streaming. Create professional productions with powerful features.</p><h3>📱 Features</h3><ul><li>High performance real time capture</li><li>Unlimited scenes and sources</li><li>Intuitive audio mixer</li></ul>`,
         downloads: [
-            { type: "64-bit", size: "120MB", url: "https://www.mediafire.com/file/obs123/obs-studio-v30.0.2-x64.exe/file" }
+            { type: "64-bit", size: "120MB", url: "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.2.3-Windows.zip" },
+            { type: "32-bit", size: "120MB", url: "https://github.com/obsproject/obs-studio/releases/download/27.2.4/OBS-Studio-27.2.4-Full-Installer-x86.exe" }
         ],
         oldVersions: []
     }
