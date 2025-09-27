@@ -337,7 +337,7 @@ const apps = [
         name: "Malwarebytes",
         developer: "Malwarebytes Inc.",
         tagline: "Anti-Malware Protection",
-        icon: "../img/malwarebytes.webp",
+        icon: "../img/malware_bytes.webp",
         rating: 4.5,
         category: "security",
         trending: true,
