@@ -250,6 +250,147 @@ const apps = [
             { type: "64-bit", size: "250MB", url: "https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.38-setup.exe" }
         ],
         oldVersions: []
+    },
+    {
+        id: 14,
+        name: "Microsoft Teams",
+        developer: "Microsoft Corporation",
+        tagline: "Workplace Collaboration",
+        icon: "../img/teams.webp",
+        rating: 4.2,
+        category: "communication",
+        trending: true,
+        new: false,
+        version: "1.7.00.9764",
+        size: "115MB",
+        windowsVersion: "10+",
+        lastUpdated: "Dec 18, 2024",
+        description: `<h3>💼 Collaboration</h3><p>Teams brings together chat, video conferencing, file sharing, and collaboration into one platform for businesses and schools.</p><h3>✨ Key Features</h3><ul><li>Seamless video calls</li><li>Integration with Office 365</li><li>Team chat & file sharing</li></ul>`,
+        downloads: [
+            { type: "64-bit", size: "115MB", url: "https://go.microsoft.com/fwlink/p/?LinkID=869426&clcid=0x409&culture=en-us&country=US" }
+        ],
+        oldVersions: []
+    },
+    {
+        id: 15,
+        name: "Zoom",
+        developer: "Zoom Video Communications",
+        tagline: "Video Conferencing Made Easy",
+        icon: "../img/zoom.webp",
+        rating: 4.3,
+        category: "communication",
+        trending: false,
+        new: false,
+        version: "6.1.0",
+        size: "92MB",
+        windowsVersion: "7+",
+        lastUpdated: "Dec 07, 2024",
+        description: `<h3>🎥 Video Meetings</h3><p>Zoom is a reliable video conferencing platform with screen sharing, chat, and webinar features.</p><h3>🔧 Features</h3><ul><li>HD video & audio</li><li>Breakout rooms</li><li>Meeting recordings</li></ul>`,
+        downloads: [
+            { type: "64-bit", size: "92MB", url: "https://zoom.us/client/latest/ZoomInstallerFull.exe" }
+        ],
+        oldVersions: []
+    },
+    {
+        id: 16,
+        name: "FileZilla",
+        developer: "Tim Kosse",
+        tagline: "Free FTP Client",
+        icon: "../img/filezilla.webp",
+        rating: 4.0,
+        category: "tools",
+        trending: false,
+        new: false,
+        version: "3.67.0",
+        size: "12MB",
+        windowsVersion: "7+",
+        lastUpdated: "Dec 01, 2024",
+        description: `<h3>📂 FTP Client</h3><p>FileZilla is a free FTP solution for transferring files across the internet with support for FTP, SFTP, and FTPS.</p><h3>🔧 Features</h3><ul><li>Drag & drop transfers</li><li>Large file support</li><li>Site manager</li></ul>`,
+        downloads: [
+            { type: "64-bit", size: "12MB", url: "https://download.filezilla-project.org/client/FileZilla_3.67.0_win64-setup.exe" },
+            { type: "32-bit", size: "11MB", url: "https://download.filezilla-project.org/client/FileZilla_3.67.0_win32-setup.exe" }
+        ],
+        oldVersions: []
+    },
+    {
+        id: 17,
+        name: "CCleaner",
+        developer: "Piriform",
+        tagline: "System Cleaning Tool",
+        icon: "../img/ccleaner.webp",
+        rating: 4.1,
+        category: "utilities",
+        trending: false,
+        new: false,
+        version: "6.22",
+        size: "55MB",
+        windowsVersion: "7+",
+        lastUpdated: "Nov 20, 2024",
+        description: `<h3>🧹 PC Cleaner</h3><p>CCleaner optimizes your PC by removing junk files, freeing up space, and improving performance.</p><h3>🔧 Features</h3><ul><li>Registry cleaner</li><li>Startup optimization</li><li>Privacy protection</li></ul>`,
+        downloads: [
+            { type: "64-bit", size: "55MB", url: "https://download.ccleaner.com/ccsetup622.exe" }
+        ],
+        oldVersions: []
+    },
+    {
+        id: 18,
+        name: "Malwarebytes",
+        developer: "Malwarebytes Inc.",
+        tagline: "Anti-Malware Protection",
+        icon: "../img/malwarebytes.webp",
+        rating: 4.5,
+        category: "security",
+        trending: true,
+        new: false,
+        version: "5.1.2",
+        size: "95MB",
+        windowsVersion: "7+",
+        lastUpdated: "Dec 02, 2024",
+        description: `<h3>🛡 Security</h3><p>Malwarebytes protects your PC from malware, ransomware, and advanced online threats.</p><h3>🔧 Features</h3><ul><li>Real-time protection</li><li>Ransomware defense</li><li>Lightweight scanning</li></ul>`,
+        downloads: [
+            { type: "64-bit", size: "95MB", url: "https://data-cdn.mbamupdates.com/web/mb5-setup-consumer/MBSetup.exe" }
+        ],
+        oldVersions: []
+    },
+    {
+        id: 19,
+        name: "Avast Free Antivirus",
+        developer: "Avast Software",
+        tagline: "Free Antivirus & Security",
+        icon: "../img/avast.webp",
+        rating: 4.2,
+        category: "security",
+        trending: false,
+        new: false,
+        version: "24.2.6103",
+        size: "70MB",
+        windowsVersion: "7+",
+        lastUpdated: "Nov 28, 2024",
+        description: `<h3>🛡 Antivirus</h3><p>Avast offers essential free protection against viruses, malware, and other online threats.</p><h3>🔧 Features</h3><ul><li>Real-time threat detection</li><li>Wi-Fi network security</li><li>Password manager</li></ul>`,
+        downloads: [
+            { type: "64-bit", size: "70MB", url: "https://files.avast.com/iavs9x/avast_free_antivirus_setup_offline.exe" }
+        ],
+        oldVersions: []
+    },
+    {
+        id: 20,
+        name: "Adobe Acrobat Reader DC",
+        developer: "Adobe Inc.",
+        tagline: "PDF Reader",
+        icon: "../img/adobe_reader.webp",
+        rating: 4.3,
+        category: "productivity",
+        trending: true,
+        new: false,
+        version: "2025.001.1000",
+        size: "180MB",
+        windowsVersion: "7+",
+        lastUpdated: "Dec 16, 2024",
+        description: `<h3>📑 PDF Reader</h3><p>Adobe Reader is the most popular software to view, print, and annotate PDF files.</p><h3>🔧 Features</h3><ul><li>Fill & sign forms</li><li>Sticky notes & comments</li><li>Cloud integration</li></ul>`,
+        downloads: [
+            { type: "64-bit", size: "180MB", url: "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2400120598/AcroRdrDCx642500011000_MUI.exe" }
+        ],
+        oldVersions: []
     }
 ];
 
