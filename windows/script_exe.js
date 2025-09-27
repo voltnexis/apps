@@ -147,6 +147,109 @@ const apps = [
             { type: "32-bit", size: "120MB", url: "https://github.com/obsproject/obs-studio/releases/download/27.2.4/OBS-Studio-27.2.4-Full-Installer-x86.exe" }
         ],
         oldVersions: []
+    },
+{
+        id: 9,
+        name: "Notepad++",
+        developer: "Don Ho",
+        tagline: "Advanced Text Editor",
+        icon: "../img/notepadpp.webp",
+        rating: 4.6,
+        category: "tools",
+        trending: false,
+        new: false,
+        version: "8.6.5",
+        size: "12MB",
+        windowsVersion: "7+",
+        lastUpdated: "Dec 09, 2024",
+        description: `<h3>📝 Text Editor</h3><p>Notepad++ is a free source code editor and Notepad replacement that supports several languages.</p><h3>🔧 Features</h3><ul><li>Syntax highlighting</li><li>Tab-based editing</li><li>Plugin support</li></ul>`,
+        downloads: [
+            { type: "64-bit", size: "12MB", url: "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.5/npp.8.6.5.Installer.x64.exe" },
+            { type: "32-bit", size: "9MB", url: "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.5/npp.8.6.5.Installer.exe" }
+        ],
+        oldVersions: []
+    },
+    {
+        id: 10,
+        name: "WinRAR",
+        developer: "RARLAB",
+        tagline: "File Compression Utility",
+        icon: "../img/winrar.webp",
+        rating: 4.4,
+        category: "tools",
+        trending: false,
+        new: false,
+        version: "6.24",
+        size: "6MB",
+        windowsVersion: "7+",
+        lastUpdated: "Nov 30, 2024",
+        description: `<h3>📦 File Archiver</h3><p>WinRAR is a powerful archive manager that can backup data and reduce file size.</p><h3>🔧 Features</h3><ul><li>Create and unpack RAR/ZIP files</li><li>Strong AES-256 encryption</li><li>Free trial available</li></ul>`,
+        downloads: [
+            { type: "64-bit", size: "6MB", url: "https://www.rarlab.com/rar/winrar-x64-624.exe" },
+            { type: "32-bit", size: "5MB", url: "https://www.rarlab.com/rar/wrar624.exe" }
+        ],
+        oldVersions: []
+    },
+    {
+        id: 11,
+        name: "7-Zip",
+        developer: "Igor Pavlov",
+        tagline: "Open-Source Archiver",
+        icon: "../img/7zip.webp",
+        rating: 4.3,
+        category: "tools",
+        trending: false,
+        new: false,
+        version: "24.07",
+        size: "2MB",
+        windowsVersion: "7+",
+        lastUpdated: "Dec 08, 2024",
+        description: `<h3>🗜 Archiver</h3><p>7-Zip is a free and open-source file archiver with a high compression ratio.</p><h3>🔧 Features</h3><ul><li>Supports 7z, ZIP, RAR, TAR, and more</li><li>Strong AES-256 encryption</li><li>Completely free</li></ul>`,
+        downloads: [
+            { type: "64-bit", size: "2MB", url: "https://www.7-zip.org/a/7z2407-x64.exe" },
+            { type: "32-bit", size: "1.5MB", url: "https://www.7-zip.org/a/7z2407.exe" }
+        ],
+        oldVersions: []
+    },
+    {
+        id: 12,
+        name: "Blender",
+        developer: "Blender Foundation",
+        tagline: "3D Creation Suite",
+        icon: "../img/blender.webp",
+        rating: 4.7,
+        category: "design",
+        trending: false,
+        new: false,
+        version: "4.2.0",
+        size: "250MB",
+        windowsVersion: "10+",
+        lastUpdated: "Dec 05, 2024",
+        description: `<h3>🎨 3D Creation</h3><p>Blender is the free and open-source 3D creation suite. It supports modeling, rigging, animation, simulation, rendering, and more.</p><h3>🔧 Features</h3><ul><li>Advanced 3D modeling</li><li>Cycles & Eevee render engines</li><li>Python scripting</li></ul>`,
+        downloads: [
+            { type: "64-bit", size: "250MB", url: "https://download.blender.org/release/Blender4.2/blender-4.2.0-windows-x64.msi" }
+        ],
+        oldVersions: []
+    },
+    {
+        id: 13,
+        name: "GIMP",
+        developer: "GIMP Team",
+        tagline: "Open-Source Image Editor",
+        icon: "../img/gimp.webp",
+        rating: 4.4,
+        category: "design",
+        trending: false,
+        new: false,
+        version: "2.10.38",
+        size: "250MB",
+        windowsVersion: "7+",
+        lastUpdated: "Nov 25, 2024",
+        description: `<h3>🖼 Image Editor</h3><p>GIMP is a free and open-source image editor for tasks such as photo retouching and image composition.</p><h3>🔧 Features</h3><ul><li>Customizable interface</li><li>Advanced image manipulation</li><li>Plugin support</li></ul>`,
+        downloads: [
+            { type: "64-bit", size: "250MB", url: "https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.38-setup.exe" }
+        ],
+        oldVersions: []
     }
 ];
 
