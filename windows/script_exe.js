@@ -592,6 +592,110 @@ const apps = [
       { type: "64-bit", size: "≈20MB", url: "https://github.com/HandBrake/HandBrake/releases/download/1.8.2/HandBrake-1.8.2-x86_64-Win_GUI.exe" }
     ],
     oldVersions: []
+},
+{
+    id: 31,
+    name: "Telegram Desktop",
+    developer: "Telegram FZ-LLC",
+    tagline: "Fast & Secure Messaging",
+    icon: "../img/telegram.webp",
+    rating: 4.5,
+    category: "social",
+    trending: true,
+    new: false,
+    version: "5.2.3",
+    size: "65MB",
+    windowsVersion: "7+",
+    lastUpdated: "2025",
+    description: `<h3>💬 Telegram</h3><p>Telegram Desktop is a fast, secure, and cloud-based messaging app with sync across devices.</p><h3>✨ Features</h3><ul><li>Cloud chat history</li><li>End-to-end encrypted secret chats</li><li>Large file sharing up to 2GB</li></ul>`,
+    downloads: [
+      { type: "64-bit", size: "≈65MB", url: "https://updates.tdesktop.com/tsetup-x64.exe" },
+      { type: "32-bit", size: "≈60MB", url: "https://updates.tdesktop.com/tsetup-x86.exe" }
+    ],
+    oldVersions: []
+},
+{
+    id: 32,
+    name: "Python",
+    developer: "Python Software Foundation",
+    tagline: "Programming Language",
+    icon: "../img/python.webp",
+    rating: 4.7,
+    category: "development",
+    trending: false,
+    new: false,
+    version: "3.12.6",
+    size: "28MB",
+    windowsVersion: "8+",
+    lastUpdated: "2025",
+    description: `<h3>🐍 Python</h3><p>Python is a versatile programming language used in web, AI, data science, and more.</p><h3>✨ Features</h3><ul><li>Easy syntax</li><li>Extensive libraries</li><li>Cross-platform</li></ul>`,
+    downloads: [
+      { type: "64-bit", size: "≈28MB", url: "https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe" },
+      { type: "32-bit", size: "≈25MB", url: "https://www.python.org/ftp/python/3.12.6/python-3.12.6.exe" }
+    ],
+    oldVersions: []
+},
+{
+    id: 33,
+    name: "Git for Windows",
+    developer: "Git SCM",
+    tagline: "Version Control System",
+    icon: "../img/git.webp",
+    rating: 4.6,
+    category: "development",
+    trending: false,
+    new: false,
+    version: "2.47.0",
+    size: "54MB",
+    windowsVersion: "7+",
+    lastUpdated: "2025",
+    description: `<h3>🔧 Git</h3><p>Git is a distributed version control system that helps track changes in code projects.</p><h3>✨ Features</h3><ul><li>Branching and merging</li><li>Distributed development</li><li>Git Bash included</li></ul>`,
+    downloads: [
+      { type: "64-bit", size: "≈54MB", url: "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.1/Git-2.47.0-64-bit.exe" },
+      { type: "32-bit", size: "≈48MB", url: "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.1/Git-2.47.0-32-bit.exe" }
+    ],
+    oldVersions: []
+},
+{
+    id: 34,
+    name: "Node.js",
+    developer: "OpenJS Foundation",
+    tagline: "JavaScript Runtime",
+    icon: "../img/nodejs.webp",
+    rating: 4.5,
+    category: "development",
+    trending: false,
+    new: false,
+    version: "22.11.0",
+    size: "35MB",
+    windowsVersion: "10+",
+    lastUpdated: "2025",
+    description: `<h3>⚡ Node.js</h3><p>Node.js is a JavaScript runtime built on Chrome's V8 engine, ideal for scalable apps.</p><h3>✨ Features</h3><ul><li>Asynchronous I/O</li><li>Cross-platform</li><li>NPM ecosystem</li></ul>`,
+    downloads: [
+      { type: "64-bit MSI", size: "≈35MB", url: "https://nodejs.org/dist/v22.11.0/node-v22.11.0-x64.msi" },
+      { type: "32-bit MSI", size: "≈30MB", url: "https://nodejs.org/dist/v22.11.0/node-v22.11.0-x86.msi" }
+    ],
+    oldVersions: []
+},
+{
+    id: 35,
+    name: "Java JDK",
+    developer: "Oracle Corporation",
+    tagline: "Java Development Kit",
+    icon: "../img/java.webp",
+    rating: 4.4,
+    category: "development",
+    trending: false,
+    new: false,
+    version: "23.0.1",
+    size: "160MB",
+    windowsVersion: "10+",
+    lastUpdated: "2025",
+    description: `<h3>☕ Java JDK</h3><p>The Java Development Kit provides tools to develop, compile, and run Java applications.</p><h3>✨ Features</h3><ul><li>javac compiler</li><li>Java Runtime Environment</li><li>Developer tools</li></ul>`,
+    downloads: [
+      { type: "64-bit MSI", size: "≈160MB", url: "https://download.oracle.com/java/23/latest/jdk-23_windows-x64_bin.msi" }
+    ],
+    oldVersions: []
 }
 ];
 
