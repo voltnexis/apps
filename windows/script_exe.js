@@ -491,7 +491,108 @@ const apps = [
       { type: "Installer (MSI)", size: "≈330MB", directLink: "https://download.documentfoundation.org/libreoffice/stable/24.2.3/win/x86_64/LibreOffice_24.2.3_Win_x86-64.msi" }
     ],
     oldVersions: []
-  }
+  },
+{
+    id: 26,
+    name: "Mozilla Firefox",
+    developer: "Mozilla Foundation",
+    tagline: "Fast, Private & Secure Browser",
+    icon: "../img/firefox.webp",
+    rating: 4.4,
+    category: "tools",
+    trending: true,
+    new: false,
+    version: "131.0",
+    size: "90MB",
+    windowsVersion: "7+",
+    lastUpdated: "2025",
+    description: `<h3>🌐 Firefox</h3><p>Firefox is a fast, open-source web browser focused on privacy and customization.</p><h3>✨ Features</h3><ul><li>Enhanced Tracking Protection</li><li>Customizable extensions</li><li>Sync across devices</li></ul>`,
+    downloads: [
+      { type: "64-bit", size: "≈90MB", url: "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US" },
+      { type: "32-bit", size: "≈80MB", url: "https://download.mozilla.org/?product=firefox-latest&os=win&lang=en-US" }
+    ],
+    oldVersions: []
+},
+{
+    id: 27,
+    name: "Tor Browser",
+    developer: "The Tor Project",
+    tagline: "Browse Privately",
+    icon: "../img/tor.webp",
+    rating: 4.2,
+    category: "privacy",
+    trending: false,
+    new: false,
+    version: "13.0.15",
+    size: "95MB",
+    windowsVersion: "7+",
+    lastUpdated: "2025",
+    description: `<h3>🕵️ Tor Browser</h3><p>Tor Browser lets you browse the internet anonymously and bypass censorship.</p><h3>✨ Features</h3><ul><li>Blocks trackers</li><li>Multi-layered encryption</li><li>Access .onion sites</li></ul>`,
+    downloads: [
+      { type: "64-bit", size: "≈95MB", url: "https://www.torproject.org/dist/torbrowser/13.0.15/tor-browser-windows-x86_64-portable-13.0.15.exe" }
+    ],
+    oldVersions: []
+},
+{
+    id: 28,
+    name: "Audacity",
+    developer: "Audacity Team",
+    tagline: "Free Audio Editor",
+    icon: "../img/audacity.webp",
+    rating: 4.5,
+    category: "multimedia",
+    trending: false,
+    new: false,
+    version: "3.6.4",
+    size: "30MB",
+    windowsVersion: "7+",
+    lastUpdated: "2025",
+    description: `<h3>🎶 Audacity</h3><p>Audacity is a free, open-source, cross-platform audio software for multi-track recording and editing.</p><h3>✨ Features</h3><ul><li>Record live audio</li><li>Cut, copy, splice sounds</li><li>Supports plugins</li></ul>`,
+    downloads: [
+      { type: "64-bit", size: "≈30MB", url: "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-win-3.6.4-x64.exe" }
+    ],
+    oldVersions: []
+},
+{
+    id: 29,
+    name: "Krita",
+    developer: "Krita Foundation",
+    tagline: "Digital Painting Software",
+    icon: "../img/krita.webp",
+    rating: 4.6,
+    category: "design",
+    trending: false,
+    new: false,
+    version: "5.2.6",
+    size: "150MB",
+    windowsVersion: "8.1+",
+    lastUpdated: "2025",
+    description: `<h3>🎨 Krita</h3><p>Krita is a professional FREE and open-source painting program made by artists.</p><h3>✨ Features</h3><ul><li>Brush stabilizers</li><li>HDR painting</li><li>Animation support</li></ul>`,
+    downloads: [
+      { type: "64-bit", size: "≈150MB", url: "https://download.kde.org/stable/krita/5.2.6/krita-5.2.6-x64-setup.exe" }
+    ],
+    oldVersions: []
+},
+{
+    id: 30,
+    name: "HandBrake",
+    developer: "HandBrake Team",
+    tagline: "Open-Source Video Transcoder",
+    icon: "../img/handbrake.webp",
+    rating: 4.4,
+    category: "multimedia",
+    trending: false,
+    new: false,
+    version: "1.8.2",
+    size: "20MB",
+    windowsVersion: "10+",
+    lastUpdated: "2025",
+    description: `<h3>🎥 HandBrake</h3><p>HandBrake is a free and open-source tool for converting videos from nearly any format.</p><h3>✨ Features</h3><ul><li>Convert to MP4/MKV</li><li>Device presets</li><li>Batch encoding</li></ul>`,
+    downloads: [
+      { type: "64-bit", size: "≈20MB", url: "https://github.com/HandBrake/HandBrake/releases/download/1.8.2/HandBrake-1.8.2-x86_64-Win_GUI.exe" }
+    ],
+    oldVersions: []
+}
 ];
 
 let currentFilter = 'all';
