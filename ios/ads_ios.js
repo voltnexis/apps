@@ -3,10 +3,10 @@ const adNetworks = [
     {
         name: "Apple Search Ads",
         sizes: {
-            "728x90": "https://searchads.apple.com/advanced/campaigns/example&format=728x90",
-            "300x250": "https://searchads.apple.com/advanced/campaigns/example&format=300x250",
-            "320x100": "https://searchads.apple.com/advanced/campaigns/example&format=320x100",
-            "400x300": "https://searchads.apple.com/advanced/campaigns/example&format=400x300"
+            "728x90": "http://voltnexis.github.io/assets/logo.webp",
+            "300x250": "http://voltnexis.github.io/assets/logo.webp",
+            "320x100": "http://voltnexis.github.io/assets/logo.webp",
+            "400x300": "http://voltnexis.github.io/assets/logo.webp"
         }
     }
 ];
