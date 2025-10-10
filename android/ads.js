@@ -3,7 +3,7 @@ const adNetworks = [
     {
         name: "Google AdSense",
         sizes: {
-            "728x90": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-example&format=728x90",
+            "728x90": "http://voltnexis.github.io/assets/logo.webp",
             "300x250": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-example&format=300x250",
             "320x100": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-example&format=320x100",
             "400x300": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-example&format=400x300"
