@@ -717,6 +717,27 @@ const apps = [
         { type: "Installer (EXE)", size: "≈10MB", url: "https://winscp.net/download/WinSCP-6.0.1-Setup.exe" }
     ],
     oldVersions: []
+},
+    {
+    id: 41,
+    name: "GitHub Desktop",
+    developer: "GitHub, Inc.",
+    tagline: "Seamless Git Integration",
+    icon: "../img/github.webp",
+    rating: 4.7,
+    category: "utilities",
+    trending: true,
+    new: false,
+    version: "3.3.4",
+    size: "173MB",
+    windowsVersion: "10+",
+    lastUpdated: "2025",
+    description: `<h3>🔧 Git Made Easy</h3><p>GitHub Desktop simplifies version control for developers with a user-friendly interface and powerful Git features.</p><h3>🚀 Features</h3><ul><li>Clone repositories</li><li>Commit changes visually</li><li>Resolve merge conflicts</li><li>Integrates with GitHub</li></ul>`,
+    downloads: [
+        { type: "Installer (EXE)", size: "≈120MB", url: "https://central.github.com/deployments/desktop/desktop/latest/win32" }
+        { type: "Installer (MSI)", size: "≈120MB", url: "https://central.github.com/deployments/desktop/desktop/latest/win32?format=msi" }
+    ],
+    oldVersions: []
 }
 ];
 
