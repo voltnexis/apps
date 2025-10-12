@@ -734,7 +734,7 @@ const apps = [
     lastUpdated: "2025",
     description: `<h3>🔧 Git Made Easy</h3><p>GitHub Desktop simplifies version control for developers with a user-friendly interface and powerful Git features.</p><h3>🚀 Features</h3><ul><li>Clone repositories</li><li>Commit changes visually</li><li>Resolve merge conflicts</li><li>Integrates with GitHub</li></ul>`,
     downloads: [
-        { type: "Installer (EXE)", size: "≈120MB", url: "https://central.github.com/deployments/desktop/desktop/latest/win32" }
+        { type: "Installer (EXE)", size: "≈120MB", url: "https://central.github.com/deployments/desktop/desktop/latest/win32" },
         { type: "Installer (MSI)", size: "≈120MB", url: "https://central.github.com/deployments/desktop/desktop/latest/win32?format=msi" }
     ],
     oldVersions: []
