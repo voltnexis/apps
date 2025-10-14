@@ -738,6 +738,26 @@ const apps = [
         { type: "Installer (MSI)", size: "≈120MB", url: "https://central.github.com/deployments/desktop/desktop/latest/win32?format=msi" }
     ],
     oldVersions: []
+},
+    {
+    id: 42,
+    name: "Cursor",
+    developer: "Cursor.sh",
+    tagline: "AI-Powered Coding Assistant",
+    icon: "../img/cursor.webp",
+    rating: 4.8,
+    category: "utilities",
+    trending: true,
+    new: true,
+    version: "1.7.0",
+    size: "≈115MB",
+    windowsVersion: "10+",
+    lastUpdated: "2025",
+    description: `<h3>🤖 Code Smarter with AI</h3><p>Cursor brings AI directly into your coding workflow, offering intelligent suggestions, refactoring help, and seamless integration with your IDE.</p><h3>⚡ Features</h3><ul><li>AI-assisted coding</li><li>Context-aware suggestions</li><li>Built-in terminal and Git support</li><li>Supports multiple languages</li></ul>`,
+    downloads: [
+        { type: "Installer (EXE)", size: "≈115MB", url: "https://api2.cursor.sh/updates/download/golden/win32-x64/cursor/1.7" }
+    ],
+    oldVersions: []
 }
 ];
 
