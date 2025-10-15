@@ -758,7 +758,48 @@ const apps = [
         { type: "Installer (EXE)", size: "≈115MB", url: "https://api2.cursor.sh/updates/download/golden/win32-x64/cursor/1.7" }
     ],
     oldVersions: []
+},
+    {
+    id: 43,
+    name: "Brave Browser",
+    developer: "Brave Software, Inc.",
+    tagline: "Privacy-Focused Web Browsing",
+    icon: "../img/brave.webp",
+    rating: 4.6,
+    category: "utilities",
+    trending: true,
+    new: false,
+    version: "1.66.110",
+    size: "≈95MB",
+    windowsVersion: "10+",
+    lastUpdated: "2025",
+    description: `<h3>🛡️ Browse Without Compromise</h3><p>Brave Browser blocks trackers and intrusive ads by default, offering a faster, safer, and more private browsing experience.</p><h3>🌐 Features</h3><ul><li>Built-in ad blocker</li><li>Privacy-first search engine</li><li>Earn BAT rewards</li><li>Integrated VPN and firewall</li></ul>`,
+    downloads: [
+        { type: "Installer (EXE)", size: "≈95MB", url: "https://laptop-updates.brave.com/download/BRV010" }
+    ],
+    oldVersions: []
+    },
+    {
+    id: 44,
+    name: "DroidCam Client",
+    developer: "Dev47Apps",
+    tagline: "Turn Your Phone into a Webcam",
+    icon: "../img/droidcam.webp",
+    rating: 4.5,
+    category: "utilities",
+    trending: true,
+    new: false,
+    version: "6.5.2",
+    size: "≈16MB",
+    windowsVersion: "10+",
+    lastUpdated: "2025",
+    description: `<h3>📸 Webcam Reimagined</h3><p>DroidCam Client lets you use your Android or iOS device as a high-quality webcam for your PC via Wi-Fi or USB.</p><h3>🔌 Features</h3><ul><li>Supports HD video</li><li>Works with Zoom, Skype, OBS</li><li>USB and wireless modes</li><li>Audio support included</li></ul>`,
+    downloads: [
+        { type: "Installer (EXE)", size: "≈16MB", url: "https://droidcam.app/go/droidCam.client.setup.exe" }
+    ],
+    oldVersions: []
 }
+
 ];
 
 let currentFilter = 'all';
