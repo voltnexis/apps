@@ -1,6 +1,51 @@
 // Windows software data with complete details
 const apps = [
     {
+    id: 1,
+    name: "GTA San Andreas",
+    developer: "Rockstar Games",
+    tagline: "Legendary Open-World Action Adventure",
+    icon: "https://i.ibb.co/7dz0QkHf/bbcbd2a2bb65ddad76e831c91c17b421.jpg",
+    rating: 4.8,
+    category: "game",
+    trending: true,
+    new: false,
+    version: "1.0",
+    size: "3.9GB",
+    windowsVersion: "Windows 7/8/10/11",
+    lastUpdated: "Nov 12, 2024",
+    description: `
+        <h3>🔥 About the Game</h3>
+        <p>GTA San Andreas is an iconic open-world action game set across the state of San Andreas. 
+        Play as CJ and explore cities, complete missions, and build your criminal empire.</p>
+
+        <h3>🎮 Features</h3>
+        <ul>
+            <li>Massive open world across 3 cities</li>
+            <li>Engaging story-driven missions</li>
+            <li>Vehicle customization & gang territories</li>
+            <li>Keyboard + Gamepad support</li>
+            <li>Low-end PC friendly</li>
+        </ul>
+
+        <h3>✨ What's New</h3>
+        <ul>
+            <li>Improved installer</li>
+            <li>Bug fixes and stability improvements</li>
+            <li>Better compatibility with Windows 10/11</li>
+        </ul>
+    `,
+    downloads: [
+        { 
+            type: "Full Game (PC)", 
+            size: "711GB", 
+            url: "https://github.com/privatevoltnexis/myfiles/releases/download/v1/LQ.GTA.SA.ATOM.GUY.rar"
+        }
+    ],
+    oldVersions: []
+    },
+
+    {
         id: 2,
         name: "Discord",
         developer: "Discord Inc.",
