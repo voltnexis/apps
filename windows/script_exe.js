@@ -42,7 +42,7 @@ const apps = [
             url: "https://github.com/privatevoltnexis/myfiles/releases/download/v1/LQ.GTA.SA.ATOM.GUY.rar"
         }
     ],
-    screenshots: ["https://i.ibb.co/MZMZDqp/0490facc8006eb711bec75fac24ffcfc.jpg", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
+    screenshots: ["", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
     oldVersions: []
     },
 
@@ -845,7 +845,63 @@ const apps = [
         { type: "Installer (EXE)", size: "≈16MB", url: "https://droidcam.app/go/droidCam.client.setup.exe" }
     ],
     oldVersions: []
+},
+    {
+    id: 45,
+    name: "Grand Theft Auto III",
+    developer: "Rockstar Games",
+    tagline: "The classic open-world crime saga",
+    icon: "../img/gta3.webp",
+    rating: 4.7,
+    category: "games",
+    trending: true,
+    new: false,
+    version: "1.1",
+    size: "1.2GB",
+    windowsVersion: "7+",
+    lastUpdated: "Oct 20, 2024",
+    description: `<h3>🚗 Features</h3>
+        <p>Grand Theft Auto III revolutionized open-world gaming with its immersive Liberty City, dynamic missions, and freedom of choice.</p>
+        <h3>✨ What's New</h3>
+        <ul>
+            <li>Improved compatibility with modern Windows versions</li>
+            <li>Enhanced graphics and widescreen support</li>
+            <li>Bug fixes for stability</li>
+        </ul>`,
+    downloads: [
+        { type: "game", size: "1.2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/LQ.GTA.3.ATOM.GUY.rar" }
+    ],
+    oldVersions: []
+},
+    {
+    id: 46,
+    name: "Grand Theft Auto: Vice City",
+    developer: "Rockstar Games",
+    tagline: "Welcome to the neon-soaked 80s",
+    icon: "../img/gtavc.webp",
+    rating: 4.8,
+    category: "games",
+    trending: true,
+    new: false,
+    version: "1.1",
+    size: "1.1GB",
+    windowsVersion: "7+",
+    lastUpdated: "Oct 22, 2024",
+    description: `<h3>🌴 Features</h3>
+        <p>Grand Theft Auto: Vice City takes you back to the 1980s with a vibrant open world, unforgettable soundtrack, and thrilling missions in a city inspired by Miami.</p>
+        <h3>✨ What's New</h3>
+        <ul>
+            <li>Enhanced widescreen and HD texture support</li>
+            <li>Improved controller compatibility</li>
+            <li>Bug fixes for smoother gameplay</li>
+        </ul>`,
+    downloads: [
+        { type: "Game", size: "1.1GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/LQ.GTA.VC.ATOM.GUY.rar" }
+    ],
+    oldVersions: []
 }
+
+
 
 ];
 
