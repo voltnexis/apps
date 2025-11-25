@@ -42,6 +42,7 @@ const apps = [
             url: "https://github.com/privatevoltnexis/myfiles/releases/download/v1/LQ.GTA.SA.ATOM.GUY.rar"
         }
     ],
+    screenshots: ["https://i.ibb.co/MZMZDqp/0490facc8006eb711bec75fac24ffcfc.jpg", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
     oldVersions: []
     },
 
@@ -150,6 +151,7 @@ const apps = [
         downloads: [
             { type: "64-bit", size: "85MB", url: "https://download.scdn.co/SpotifySetup.exe" }
         ],
+        screenshots: ["https://play-lh.googleusercontent.com/kDXJ6XA2Cm47lzDCvvu6HNCu0PWmTwZKiY0ldCWrCgXGT3Ms-lbP_WN1v5vknspnLT15=w2560-h1440-rw", "https://play-lh.googleusercontent.com/OLvMsmdQrXyWIatb9cvZGsJ-Y0jsQ-_yrFkpDjcQNoWILhvOVwlb0ZYVVxz8UtBHlA=w2560-h1440-rw", "https://play-lh.googleusercontent.com/-rk94lbaRK-0oILBI3FFyxSTATkI662F5aRTnvzajpqiiw9RlI-ngu0MyFV1PaBWUVlD=w2560-h1440-rw", "https://play-lh.googleusercontent.com/B8Xn-GTS2Z7hIffu-1fE6MzsNi7RQl5L_qhk-lLWfpoQx8M5HUoVEA7SdGSiTfDNBzg=w2560-h1440-rw", "https://play-lh.googleusercontent.com/futERZbazS7TjIdcQiKxT9w3Y0Ecff_FLMseyhIWoHTdDFzaTiP_04Gtrnpv0bnuGHoJnp8V4_6wy63J2d5I=w2560-h1440-rw", "https://play-lh.googleusercontent.com/nQ3OLtOBs0JH_j0e_hHMW7MD6wiqsHpUhBQYnA2Kbc1dC3g3QdMuGt7G3qpcnNEdHR5fJroTB5boZryhiFCCjzs=w2560-h1440-rw", "https://play-lh.googleusercontent.com/7FW89wNwVLFHwFlGY4yeyLq54kyDUMPbp7st5Mx6OB6dcmkiiBmvPKBiY-tdcorqkvxDACKjcdLMS04E5R3P-w=w2560-h1440-rw", "https://play-lh.googleusercontent.com/0YeQ13O1vMKWTRlaqljFVv_gqdq8dXteEMSdux9t-JRoZ2wiZ5A0tvX7r4yEKg1w8Y1eEbzxhlxpoXO6kCz3WQ=w526-h296-rw"],
         oldVersions: []
     },
     {
@@ -855,6 +857,15 @@ const appsGrid = document.getElementById('appsGrid');
 const searchInput = document.getElementById('searchInput');
 const filterBtns = document.querySelectorAll('.filter-btn');
 
+// Make apps data globally available
+window.appsData = apps;
+
+// URL normalization - remove trailing slash from ID-based URLs
+if (window.location.search.includes('id=') && window.location.pathname.endsWith('/')) {
+    const newUrl = window.location.protocol + '//' + window.location.host + window.location.pathname.slice(0, -1) + window.location.search + window.location.hash;
+    window.history.replaceState(null, null, newUrl);
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', function() {
     renderApps();
@@ -900,7 +911,7 @@ function renderApps() {
             const appId = this.dataset.appId;
             const app = apps.find(a => a.id == appId);
             const appData = encodeURIComponent(JSON.stringify(app));
-            window.location.href = `app_exe.html?data=${appData}`;
+            window.location.href = `app_exe.html?id=${appId}`;
         });
     });
 }
@@ -926,7 +937,7 @@ function createAppCard(app) {
                     <div class="stars">${stars}</div>
                     <span>${app.rating}</span>
                 </div>
-                <button class="download-btn-small" onclick="event.stopPropagation(); window.location.href='app_exe.html?data=${appData}'">
+                <button class="download-btn-small" onclick="event.stopPropagation(); window.location.href='app_exe.html?id=${app.id}'">
                     Details
                 </button>
             </div>

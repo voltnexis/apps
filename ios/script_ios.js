@@ -39,6 +39,7 @@ const apps = [
         description: `<h3>🚀 Features</h3><p>WhatsApp Messenger is a FREE messaging app available for iPhone and iPad. WhatsApp uses your device's Internet connection to message and call friends and family.</p><h3>✨ What's New</h3><ul><li>Enhanced security with end-to-end encryption</li><li>Improved group chat features</li><li>Better file sharing capabilities</li></ul>`,
         downloadUrl: "https://www.mediafire.com/file/wa123/whatsapp-messenger-v23.24.76.ipa/file",
         ipaDeb: false,
+        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: [
             { version: "23.20.76", size: "63MB", url: "https://www.mediafire.com/file/wa456/whatsapp-v23.20.76.ipa/file" }
         ]
@@ -170,6 +171,15 @@ const appsGrid = document.getElementById('appsGrid');
 const searchInput = document.getElementById('searchInput');
 const filterBtns = document.querySelectorAll('.filter-btn');
 
+// Make apps data globally available
+window.appsData = apps;
+
+// URL normalization - remove trailing slash from ID-based URLs
+if (window.location.search.includes('id=') && window.location.pathname.endsWith('/')) {
+    const newUrl = window.location.protocol + '//' + window.location.host + window.location.pathname.slice(0, -1) + window.location.search + window.location.hash;
+    window.history.replaceState(null, null, newUrl);
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', function() {
     renderApps();
@@ -215,7 +225,7 @@ function renderApps() {
             const appId = this.dataset.appId;
             const app = apps.find(a => a.id == appId);
             const appData = encodeURIComponent(JSON.stringify(app));
-            window.location.href = `app_ios.html?data=${appData}`;
+            window.location.href = `app_ios.html?id=${appId}`;
         });
     });
 }
@@ -241,7 +251,7 @@ function createAppCard(app) {
                     <div class="stars">${stars}</div>
                     <span>${app.rating}</span>
                 </div>
-                <button class="download-btn-small" onclick="event.stopPropagation(); window.location.href='app_ios.html?data=${appData}'">
+                <button class="download-btn-small" onclick="event.stopPropagation(); window.location.href='app_ios.html?id=${app.id}'">
                     Details
                 </button>
             </div>

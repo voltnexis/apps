@@ -1,6 +1,6 @@
 // Get app data from URL
 const urlParams = new URLSearchParams(window.location.search);
-const appDataParam = urlParams.get('data');
+const appId = urlParams.get('id');
 
 // Default app data if no parameter
 const defaultApp = {
@@ -20,13 +20,8 @@ const defaultApp = {
     packageName: "sample-software"
 };
 
-// Parse app data or use default
-let currentApp;
-try {
-    currentApp = appDataParam ? JSON.parse(decodeURIComponent(appDataParam)) : defaultApp;
-} catch (e) {
-    currentApp = defaultApp;
-}
+// Find app by ID or use default
+let currentApp = defaultApp;
 
 // Ensure all required fields exist
 currentApp = {
@@ -38,7 +33,8 @@ currentApp = {
     lastUpdated: currentApp.lastUpdated || "Recently",
     description: currentApp.description || `<h3>About ${currentApp.name}</h3><p>${currentApp.tagline || 'No description available.'}</p>`,
     debUrl: currentApp.debUrl || `${currentApp.name?.toLowerCase().replace(/\s+/g, '-') || 'software'}.deb`,
-    packageName: currentApp.packageName || currentApp.name?.toLowerCase().replace(/\s+/g, '-') || 'software'
+    packageName: currentApp.packageName || currentApp.name?.toLowerCase().replace(/\s+/g, '-') || 'software',
+    screenshots: currentApp.screenshots || ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"]
 };
 
 // DOM Elements
@@ -60,8 +56,21 @@ const oldVersionsSection = document.getElementById('oldVersionsSection');
 const overlayAd = document.getElementById('overlayAd');
 const closeOverlay = document.getElementById('closeOverlay');
 
+// URL normalization - remove trailing slash from ID-based URLs
+if (window.location.search.includes('id=') && window.location.pathname.endsWith('/')) {
+    const newUrl = window.location.protocol + '//' + window.location.host + window.location.pathname.slice(0, -1) + window.location.search + window.location.hash;
+    window.history.replaceState(null, null, newUrl);
+}
+
 // Initialize page
 document.addEventListener('DOMContentLoaded', function() {
+    // Find app by ID after DOM is loaded
+    if (appId && window.appsData) {
+        const foundApp = window.appsData.find(app => app.id == appId);
+        if (foundApp) {
+            currentApp = foundApp;
+        }
+    }
     loadAppDetails();
     setupEventListeners();
     setupCodeTabs();
@@ -76,6 +85,7 @@ function loadAppDetails() {
     appIcon.alt = currentApp.name;
     appName.textContent = currentApp.name;
     developerName.textContent = currentApp.developer;
+    developerName.href = `../developer/index.html?name=${encodeURIComponent(currentApp.developer)}`;
     appVersion.textContent = currentApp.version;
     appSize.textContent = currentApp.size;
     linuxDistro.textContent = currentApp.linuxDistro;
@@ -121,6 +131,9 @@ function loadAppDetails() {
     
     // Load old versions
     loadOldVersions();
+    
+    // Load screenshots
+    loadScreenshots();
 }
 
 function updateInstallationCodes() {
@@ -332,6 +345,62 @@ function showOverlayAd() {
     }, 5000);
 }
 
+function loadScreenshots() {
+    const screenshotsGrid = document.querySelector('.screenshots-grid');
+    if (screenshotsGrid && currentApp.screenshots) {
+        screenshotsGrid.innerHTML = currentApp.screenshots.map((screenshot, index) => 
+            `<img src="${screenshot}" alt="Screenshot ${index + 1}" onclick="openScreenshotModal('${screenshot}', ${index})">`
+        ).join('');
+    }
+}
+
+function openScreenshotModal(imageSrc, index) {
+    const modal = document.getElementById('screenshotModal') || createScreenshotModal();
+    const modalImg = modal.querySelector('.modal-image');
+    const counter = modal.querySelector('.image-counter');
+    
+    modalImg.src = imageSrc;
+    counter.textContent = `${index + 1} / ${currentApp.screenshots.length}`;
+    modal.style.display = 'flex';
+    
+    modal.currentIndex = index;
+}
+
+function createScreenshotModal() {
+    const modal = document.createElement('div');
+    modal.id = 'screenshotModal';
+    modal.className = 'screenshot-modal';
+    modal.innerHTML = `
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <img class="modal-image" src="" alt="Screenshot">
+            <div class="modal-nav">
+                <button class="nav-btn prev-btn">&#8249;</button>
+                <span class="image-counter">1 / 1</span>
+                <button class="nav-btn next-btn">&#8250;</button>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+    
+    modal.querySelector('.modal-close').onclick = () => modal.style.display = 'none';
+    modal.onclick = (e) => { if (e.target === modal) modal.style.display = 'none'; };
+    modal.querySelector('.prev-btn').onclick = () => navigateScreenshot(-1);
+    modal.querySelector('.next-btn').onclick = () => navigateScreenshot(1);
+    
+    return modal;
+}
+
+function navigateScreenshot(direction) {
+    const modal = document.getElementById('screenshotModal');
+    const newIndex = modal.currentIndex + direction;
+    
+    if (newIndex >= 0 && newIndex < currentApp.screenshots.length) {
+        openScreenshotModal(currentApp.screenshots[newIndex], newIndex);
+    }
+}
+
 function generateStars(rating) {
     const fullStars = Math.floor(rating);
     const hasHalfStar = rating % 1 !== 0;
@@ -346,7 +415,7 @@ function generateStars(rating) {
     }
     
     const emptyStars = 5 - Math.ceil(rating);
-    for (let i = 0; i < emptyStars; i++) {
+    for (i = 0; i < emptyStars; i++) {
         stars += '<i class="far fa-star"></i>';
     }
     

@@ -22,10 +22,6 @@
                 <input type="text" placeholder="Search Windows software, games..." class="search-input">
                 <button class="search-btn"><i class="fas fa-search"></i></button>
             </div>
-            <div class="nav-icons">
-                <i class="fab fa-windows"></i>
-                <i class="fas fa-bars"></i>
-            </div>
         </div>
     </header>
 
@@ -58,10 +54,11 @@
             </div>
 
             <div class="download-section">
-                <div class="ad-small">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="rectangle"></ins>
-                    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                <div class="ad-container">
+                    <div class="ad-tag">Ad</div>
+                    <div class="ad-small" id="topAd">
+                        <!-- Dynamic ad will be loaded here -->
+                    </div>
                 </div>
                 
                 <div class="download-buttons" id="downloadButtons">
@@ -75,16 +72,15 @@
                     </button>
                 </div>
 
-                <div class="ad-blocks">
-                    <div class="ad-block">
-                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
-                        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="rectangle"></ins>
-                        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-                    </div>
-                    <div class="ad-block">
-                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
-                        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="rectangle"></ins>
-                        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                <div class="ad-container">
+                    <div class="ad-tag">Ad</div>
+                    <div class="ad-blocks">
+                        <div class="ad-block" id="leftAd">
+                            <!-- Dynamic ad will be loaded here -->
+                        </div>
+                        <div class="ad-block" id="rightAd">
+                            <!-- Dynamic ad will be loaded here -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -112,10 +108,11 @@
                 </div>
             </div>
 
-            <div class="ad-bottom">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            <div class="ad-container">
+                <div class="ad-tag">Ad</div>
+                <div class="ad-bottom" id="bottomAd">
+                    <!-- Dynamic ad will be loaded here -->
+                </div>
             </div>
         </div>
     </main>
@@ -146,12 +143,14 @@
     <div class="overlay-ad" id="overlayAd">
         <div class="overlay-content">
             <button class="close-overlay" id="closeOverlay">&times;</button>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="rectangle"></ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            <div class="ad-tag">Ad</div>
+            <div id="overlayAdContent">
+                <!-- Dynamic ad will be loaded here -->
+            </div>
         </div>
     </div>
 
+    <script src="script_exe.js"></script>
     <script src="app-detail_exe.js"></script>
 </body>
 </html>
