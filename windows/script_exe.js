@@ -7,7 +7,7 @@ const apps = [
     tagline: "Legendary Open-World Action Adventure",
     icon: "https://i.ibb.co/7dz0QkHf/bbcbd2a2bb65ddad76e831c91c17b421.jpg",
     rating: 4.8,
-    category: "game",
+    category: "games",
     trending: true,
     new: false,
     version: "1.0",
