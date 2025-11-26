@@ -42,7 +42,7 @@ const apps = [
             url: "https://github.com/privatevoltnexis/myfiles/releases/download/v1/LQ.GTA.SA.ATOM.GUY.rar"
         }
     ],
-    screenshots: ["", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
+    screenshots: ["https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/bb5e5e25e29046535aba405ad47bb826.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/9b8a9636519a343c04f860eb6f0c22d3.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/99efb826b071747efc32fa9a14117e99.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/a861733e3625e0d409df25aee50d5273.jpg"],
     oldVersions: []
     },
 
@@ -64,6 +64,7 @@ const apps = [
         downloads: [
             { type: "64-bit", size: "85MB", url: "https://www.mediafire.com/file/dc123/discord-v1.0.9015-x64.exe/file" }
         ],
+        screenshots: ["", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: [
             { version: "1.0.9014", downloads: [{ type: "64-bit", size: "83MB", url: "https://www.mediafire.com/file/dc456/discord-v1.0.9014-x64.exe/file" }] }
         ]
@@ -87,6 +88,7 @@ const apps = [
             { type: "64-bit", size: "2.5MB", url: "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe" },
             { type: "32-bit", size: "2.3MB", url: "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe" }
         ],
+        screenshots: ["", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: [
             { version: "3.5.16", downloads: [{ type: "64-bit", size: "2.4MB", url: "https://www.mediafire.com/file/stold123/steam-v3.5.16-x64.exe/file" }] }
         ]
