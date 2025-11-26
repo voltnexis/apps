@@ -873,6 +873,7 @@ const apps = [
     downloads: [
         { type: "game", size: "1.2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/LQ.GTA.3.ATOM.GUY.rar" }
     ],
+    screenshots: ["https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/8fbaa33023630eedf32a7b8379fdd30d.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/a67cd294bd5b65208032d4979834f996.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/2268e1ec55a4ed7831571b318a68e8d7.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/9d84f5e9ba732bcacafabfe9717b3e70.jpg"],
     oldVersions: []
 },
     {
@@ -899,6 +900,175 @@ const apps = [
         </ul>`,
     downloads: [
         { type: "Game", size: "1.1GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/LQ.GTA.VC.ATOM.GUY.rar" }
+    ],
+    screenshots: ["https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/7c3466bd07d09ec14c9555505ea4e6af.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/b0353d1406b5264dc18326a811bc5bb5.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/0301d4689fa8e170ceefe118a18b3afb.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/e689e87adb68899abb7957e4b0d70612.jpg"],
+    oldVersions: []
+},
+    {
+    id: 47,
+    name: "Grand Theft Auto IV",
+    developer: "Rockstar Games",
+    tagline: "A new life in Liberty City",
+    icon: "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/0b01707ef5603a26c1f542088f8f7c09.jpg",
+    rating: 4.6,
+    category: "games",
+    trending: true,
+    new: false,
+    version: "1.2.0",
+    size: "14.9GB",
+    windowsVersion: "10+",
+    lastUpdated: "Sep 10, 2024",
+    description: `<h3>🌆 Features</h3>
+        <p>Experience the gritty streets of Liberty City with an immersive storyline, stunning physics, and unforgettable characters.</p>
+        <h3>✨ What's New</h3>
+        <ul>
+            <li>Improved performance & visual enhancements</li>
+            <li>Better compatibility for Windows 10/11</li>
+            <li>Latest Rockstar patch integration</li>
+        </ul>`,
+    downloads: [
+        { type: "Game", size: "14.9GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.Full.Setup.rar" }
+    ],
+    screenshots: ["https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/5576e5d2cd0f451508d8b025b77e7250.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/cae6f19ea5ca9f4dca32ad0e6c149bf0.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/64735be0708ba85d2d31130b0b5ded19.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/86f4cb49763c34e9816535006f5e6a08.jpg"],
+    oldVersions: []
+},
+    {
+    id: 48,
+    name: "Grand Theft Auto: San Andreas – DE",
+    developer: "Rockstar Games",
+    tagline: "The legend remastered",
+    icon: "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/815ee37b95c5da495dfd53e195b3fd2b.png",
+    rating: 4.7,
+    category: "games",
+    trending: true,
+    new: false,
+    version: "1.0.3",
+    size: "22GB",
+    windowsVersion: "10+",
+    lastUpdated: "Aug 14, 2024",
+    description: `<h3>🔥 Features</h3>
+        <p>The classic San Andreas experience rebuilt for modern hardware, featuring enhanced graphics and modernized controls.</p>
+        <h3>🔄 What's New</h3>
+        <ul>
+            <li>Improved lighting & high-resolution textures</li>
+            <li>Better UI scaling for high-refresh displays</li>
+            <li>General performance improvements</li>
+        </ul>`,
+    downloads: [
+        { type: "Game", size: "22GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.DE.Full.zip" }
+    ],
+    screenshots: [
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/5c00b0e39ea1fa1e867a6402ed9f4761.jpg",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/d28dac374fa7413d066a50ca33cf6da7.jpg",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/39d1b9492d201b5d046ee2ba2f136001.jpg",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/4bddd183ad5bce1fa0efdc5cbd958743.jpg",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/e8a120c239702e7578f40def8fe1b8e5.jpg"
+    ],
+    oldVersions: []
+},
+    {
+    id: 49,
+    name: "Grand Theft Auto: Vice City – DE",
+    developer: "Rockstar Games",
+    tagline: "Return to the neon paradise",
+    icon: "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/d694e018ebbf633042b0ab4efe240761.png",
+    rating: 4.5,
+    category: "games",
+    trending: true,
+    new: false,
+    version: "1.0.2",
+    size: "18GB",
+    windowsVersion: "10+",
+    lastUpdated: "Aug 17, 2024",
+    description: `<h3>🌴 Features</h3>
+        <p>Vice City re-imagined with polished visuals, better lighting, and reworked character models — still keeping its 80s charm.</p>
+        <h3>🚀 What's New</h3>
+        <ul>
+            <li>HD textures + updated shaders</li>
+            <li>Modernized controls & UI</li>
+            <li>Performance stability improvements</li>
+        </ul>`,
+    downloads: [
+        { type: "Game", size: "18GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.VC.DE.Full.iso" }
+    ],
+    screenshots: [
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/aa480237baeaa2aeb0df779e3b42e840.jpg",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/c37f2dbd02b15d29abfce91294f29403.jpg",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/c56ece29d1d4a95952e36faf50215d22.jpg",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/423be4b38c2a859d7cf5b599814d4374.jpg",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/6baec421d2ea5db3c5db1dfff3206ea4.jpg"
+    ],
+    oldVersions: []
+},
+    {
+    id: 50,
+    name: "Grand Theft Auto III – DE",
+    developer: "Rockstar Games",
+    tagline: "The beginning of an era",
+    icon: "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/ebac74a3bd8855474149e5183e5daab9.svg",
+    rating: 4.4,
+    category: "games",
+    trending: false,
+    new: false,
+    version: "1.0.1",
+    size: "12GB",
+    windowsVersion: "10+",
+    lastUpdated: "Jul 29, 2024",
+    description: `<h3>🏙 Features</h3>
+        <p>The classic Liberty City story rebuilt using modern graphics and gameplay improvements.</p>
+        <h3>🆕 What's New</h3>
+        <ul>
+            <li>Upgraded lighting & textures</li>
+            <li>Smoother driving & shooting controls</li>
+            <li>Minor performance/bug fixes</li>
+        </ul>`,
+    downloads: [
+        { type: "Game", size: "12GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.3.DE.Setup.zip" }
+    ],
+    screenshots: [
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/2d0db280cc91d285f6ed5eb64f3d9d8e.jpg",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/f21b89ff222aec91c5c432eeb7993a15.jpg",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/4aeff66c2cfd92173bf6a93f9a533b24.jpg",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/4d8cb815ee8236e1dbac6e7d3120809b.jpg",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/a6305db310108acdaa5f15d169b1b6c7.jpg"
+    ],
+    oldVersions: []
+},
+    {
+    id: 51,
+    name: "Grand Theft Auto V",
+    developer: "Rockstar Games",
+    tagline: "Los Santos. Crime. Chaos. Freedom.",
+    icon: "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/6a84/c670974867f83cb814c6b46b6fbc6c3d9caa23bf.jpg",
+    rating: 4.9,
+    category: "games",
+    trending: true,
+    new: false,
+    version: "1.0.2802",
+    size: "95GB",
+    windowsVersion: "10+",
+    lastUpdated: "Oct 03, 2024",
+    description: `<h3>🌇 Features</h3>
+        <p>Experience the ultimate open-world action with stunning visuals, three playable protagonists, dynamic missions, and endless opportunities across Los Santos & Blaine County.</p>
+        <h3>🚀 What's New</h3>
+        <ul>
+            <li>Optimized graphics for high-end hardware</li>
+            <li>Updated Online features and patch support</li>
+            <li>General stability and performance improvements</li>
+        </ul>`,
+    downloads: [
+        { type: "Game", size: "95GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.V.Full-Repack.zip" }
+    ],
+    screenshots: [
+        "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/9ca23774eb886a9dce533874723e35ce7a825f5d.png",
+        "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/224f9a314a45e5828e9af56153f8871c06290689.png",
+        "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/7f4ce4e75d7fdf8242be91007816104772c99935.jpg",
+        "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/1e85d43728a064d7cddcdffdc45a6181c4bcb218.jpg",
+        "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/9b9931818dfa5217424ef574f3aa9c43f06a5d9c.jpg",
+        "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/24ba6644deb404944cdbe64705285bbad80154a4.jpg",
+        "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/a9877dd12c6baf42e1def32e0218c540cc95a13d.jpg",
+        "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/6f3821f838206d283eb6d4daba97d40eee78aa51.jpg",
+        "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/a457313ec277b6e74bd25238768cbcecda739549.jpg"
     ],
     oldVersions: []
 }
