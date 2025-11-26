@@ -689,7 +689,7 @@ const apps = [
     lastUpdated: "Oct 05, 2024",
     description: `<h3>🌎 Welcome to San Andreas</h3><p>Embark on CJ's journey to reclaim his turf in this legendary open-world game.</p><h3>🔧 Features</h3><ul><li>High-quality classic visuals</li><li>Full map open-world gameplay</li><li>100+ missions & gang wars</li></ul>`,
     downloadUrl: "https://github.com/privatevoltnexis/appshub/releases/download/v3/GTA.SA.-.ATOM.GUY.apk",
-    obbUrl: "https://www.mediafire.com/file/sa210obb/gta-sa-v2.10.obb/file",
+    obbUrl: "https://www.mediafire.com/file/ze7wywmxhqlrsz9/com.rockstar.gtasa.zip/file",
     apkObb: true,
     screenshots: ["https://play-lh.googleusercontent.com/XJIXWvMtYKOfdE8k_353XZwKEHE63JigwjZnsSyhUH6VzOeUHhxouqGHpy7f1nQGyQ=w526-h296","https://play-lh.googleusercontent.com/gLb0inRrKnSPB2vR4yTDcxJVYNfnCmLs0n2fp0L5EEF28aBUarvwrxVzUw8xnOlarA=w526-h296","https://play-lh.googleusercontent.com/CQiBcsfvjd0nv3--yjinA6YAZuWoj58WiymNQ3JGLhYWaH4zXgb8NbIlCSrjJRmtMvl2=w526-h296", "https://play-lh.googleusercontent.com/UMbELQfIJCw7HMl3xT9ypYNczwH_njQJM1Z0B7EuTURnG0pbVq6sxy6NBAxL-NVMg8o=w526-h296", "https://play-lh.googleusercontent.com/pzhLMpZID8gd-1bcOJgpWdXA4ukXGXGRwKnNE42I9u7ZkT5a6vwQLqbkdWCmD713-4U=w526-h296", "https://play-lh.googleusercontent.com/8ZUdV9WZUDgmR57IAnZ8UrJWll0TJcovweFNQjXUzjNCIkR4C7XV-jaLz4K1e0-8uS08=w526-h296", "https://play-lh.googleusercontent.com/SYyS63I8tUmMCljawaDwPyNA5zH4aOxpFF7R3JMFk2YvpTsRn-JGXYOdVNj9m0Su5cRm=w526-h296"],
     oldVersions: []
@@ -728,7 +728,7 @@ const apps = [
     lastUpdated: "Sep 14, 2024",
     description: `<h3>🌴 Welcome to Vice City</h3><p>Step into the neon-soaked 80s with Tommy Vercetti in this legendary open world classic.</p><h3>⭐ Highlights</h3><ul><li>Iconic soundtrack + atmosphere</li><li>Motorbikes, boats & helicopters</li><li>Classic crime-based storylines</li></ul>`,
     downloadUrl: "https://github.com/privatevoltnexis/appshub/releases/download/v3/GTA.VC.-.ATOM.GUY.apk",
-    obbUrl: "https://www.mediafire.com/file/vc112obb/gta-vc-v1.12.obb/file",
+    obbUrl: "https://www.mediafire.com/file/gw1oxe7ienp36he/GTA_VC_APK%252BSCRIPT.zip/file",
     apkObb: true,
     screenshots: ["https://play-lh.googleusercontent.com/soywaPw0kB7fiDHokNdGlxbOijFwLe8XahjnZhJAejpCTcPMdogHEu10hcAF6dBW9LI=w526-h296","https://play-lh.googleusercontent.com/q3Z04rZK0xj0LsWZo9JZ-RF6FHeqIri-HJpDmNeQ7ObM2xzXZi532gclw37InkgTRVU=w526-h296","https://play-lh.googleusercontent.com/tuYtl9M4l9ukrxKY3e6NZyLlz7iZItE0CgzRuiDBPGNUYnholCnt2HT-73YSQWr3Qjqa=w526-h296"],
     oldVersions: []
@@ -767,9 +767,8 @@ const apps = [
     size: "3.2GB",
     lastUpdated: "Dec 01, 2024",
     description: `<h3>🏙 Liberty City Remastered</h3><p>The game that started it all — now modernized for new players and veterans.</p><h3>⚙ Upgrades</h3><ul><li>Advanced lighting system</li><li>Smoother animations & gameplay</li><li>Improved traffic + density</li></ul>`,
-    downloadUrl: "https://www.mediafire.com/file/gta3de105/gta-3-de-v1.05.apk/file",
-    obbUrl: "https://www.mediafire.com/file/gta3de105obb/gta-3-de-v1.05.obb/file",
-    apkObb: true,
+    downloadUrl: "https://github.com/privatevoltnexis/appshub/releases/download/v3/GTA.3.-.DE.-.ATOM.GUY.apk",
+    apkObb: false,
     screenshots: ["https://play-lh.googleusercontent.com/NpIHx92juuR5Tr1duSTA1-vhaG9jji76H8X7gf2TEhc_GzR8qINNrbuj7moCN5nGhPO8=w526-h296","https://play-lh.googleusercontent.com/0i7xZ_EpbasnimL-uImm8NZIX764kEf9nhD8TNueuhBi36BGz5k1ofmzoAgfSXfp=w526-h296","https://play-lh.googleusercontent.com/drscQYcZInDY6gnYwUwbubnjBJVFcmLJxbWAcqrnGIqwb_9ejwtXFM0tXLQQl74JnQ=w526-h296", "https://play-lh.googleusercontent.com/co-ChdYpV8a00otitSvtc0r8emIYd938E1pHBz5vukGjuJy0Yu32t3ETuFLMRuf5gw=w526-h296", "https://play-lh.googleusercontent.com/-soQKJ2nxGluJfbqKTrTNxfqysqe2tYWAeAhauMI2Qjn19LTZJhUdXh1GBlvinX0I9UF=w526-h296"],
     oldVersions: []
 }
