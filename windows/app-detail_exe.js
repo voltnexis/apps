@@ -106,7 +106,7 @@ const adData = {
         { img: 'https://i.ibb.co/ksJFNcY7/3.jpg', url: 'https://voltnexis.github.io/pureparent' },
         { img: 'https://i.ibb.co/8D9Mhpzh/3.jpg', url: 'https://voltnexis.github.io/promptverse' },
         { img: 'https://i.ibb.co/0yhmx1S9/22.jpg', url: 'https://voltnexis.github.io/promptverse' },
-        { img: 'https://i.ibb.co/ZphvJL2L/3.jpg', url: 'https://voltnexis.github.io/builds' },
+        { img: 'https://i.ibb.co/ZphvJL2L/3.jpg', url: 'https://voltnexis.github.io/builds' }
     ],
     wide: [
         { img: 'https://i.ibb.co/wZ0Dcvw2/10.png', url: 'https://voltnexis.github.io' },
@@ -122,7 +122,7 @@ const adData = {
         { img: 'https://i.ibb.co/XrL0b1Fj/4.jpg', url: 'https://voltnexisstudio.vercel.app' },
         { img: 'https://i.ibb.co/bfD6Vnc/4.jpg', url: 'https://voltnexis.github.io/pureparent' },
         { img: 'https://i.ibb.co/CKrzYy8t/4.jpg', url: 'https://voltnexis.github.io/promptverse' },
-        { img: 'https://i.ibb.co/fGDJ8vzX/4.jpg', url: 'https://voltnexis.github.io/builds' },
+        { img: 'https://i.ibb.co/fGDJ8vzX/4.jpg', url: 'https://voltnexis.github.io/builds' }
     ],
     overlay: [
         { img: 'https://i.ibb.co/21RWyFTp/7.png', url: 'https://voltnexis.github.io' },
