@@ -212,9 +212,12 @@ const apps = [
         size: "12MB+655MB",
         lastUpdated: "Jun 12, 2025",
         description: `<h3>🚗 Open World Action</h3><p>GTA 3 brings the revolutionary open-world experience to mobile.</p><h3>🎮 Features</h3><ul><li>Story missions</li><li>Open-world freedom</li><li>HD graphics</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/84rffifixkrjae5/GTA_3_v1.8_APKGW.VoltNexis.apk/file",
-        obbUrl: "https://www.mediafire.com/file/wkae6wtgy3nkqkk/com.rockstar.gta3.zip/file",
-        apkObb: true,
+        downloads: [
+            { type: "APK Part 1", url: "https://www.mediafire.com/file/84rffifixkrjae5/GTA_3_v1.8_Part1.apk/file", size: "6MB" },
+            { type: "APK Part 2", url: "https://www.mediafire.com/file/84rffifixkrjae6/GTA_3_v1.8_Part2.apk/file", size: "6MB" },
+            { type: "OBB Data", url: "https://www.mediafire.com/file/wkae6wtgy3nkqkk/com.rockstar.gta3.zip/file", size: "655MB" }
+        ],
+        multiPart: true,
         screenshots: ["https://play-lh.googleusercontent.com/44ZhJFHQQzHSt5HVA7tkNMOAWOnMhYhbpPEQvOZ7dDnVTM8-I-ai55B66mlH9IV_jw=w526-h296-rw", "https://play-lh.googleusercontent.com/Qn5b6PqQSbpHvJzxMgnBB32UEyTwXt39kdzzx17Xuu-98GkjbK27XR5Et_oyKEoyw3c=w526-h296-rw", "https://play-lh.googleusercontent.com/G1-bzIxaWy5DGqv-vlfd7fgWCDmWJhMVIdx8KLSceXqBUGJikqSpD-36lcldpzBaRSU=w526-h296-rw", "https://play-lh.googleusercontent.com/biWCYTThuoay6Gs4aAKBRI5CMFtbC2FezZUWJ0PCskOTgJfSHnUdW6T04JZ3PZb_hQ=w526-h296-rw", "https://play-lh.googleusercontent.com/hW8s3qJdsmYJLfuHV1baq8X5hZp2igbk29mItOosezqxpqzpHrTRnMsu_6bfGJSeoWU=w526-h296-rw", "https://play-lh.googleusercontent.com/ujih8zF9R2ghF-qx2-gfu9hzDybab_hkmbTcelcS_lipXzbN0Yq9uSjXXNhfMucNqW84=w526-h296-rw"],
         oldVersions: []
     },
@@ -329,7 +332,6 @@ const apps = [
         description: `<h3>📥 APK Store</h3><p>Uptodown is a safe app store with thousands of APKs.</p><h3>📱 Features</h3><ul><li>Wide app selection</li><li>Older versions</li><li>Free downloads</li></ul>`,
         downloadUrl: "https://www.mediafire.com/file/c0045tl34e2a243/UPTODOWN_APP-STORE.apk/file",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: []
     },
     {
@@ -348,7 +350,7 @@ const apps = [
         description: `<h3>💬 Messaging</h3><p>WhatsApp lets you chat, call, and share files worldwide.</p><h3>📱 Features</h3><ul><li>Free messaging</li><li>Voice & video calls</li><li>Secure encryption</li></ul>`,
         downloadUrl: "https://www.mediafire.com/file/whatsapp/whatsapp.apk/file",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
+        screenshots: ["https://play-lh.googleusercontent.com/4OcZbSdHY67pw--Fm_JGeNp4pXmSpjPKRBQYkX2PXinxRhDSAJ96v-WEmyGrBtwP3C7C=w526-h296", "https://play-lh.googleusercontent.com/YW0nK6tnxykZcdeqlUUIGbHdJ-M9S5-ozT3UJB3yzNymHgFIVX-xCryTsbJhIOFXMwY=w526-h296", "https://play-lh.googleusercontent.com/48oIXcHsskmY2EIeOFnpo284deeMC37bb2FYFHqXrGT6fWlhJNU_L_GuWOxI4t5tbf0c=w526-h296", "https://play-lh.googleusercontent.com/I1_KRcB0BNiwHNChPvulWgr8mxLZ8-VuHG3wHR-rW61q3UzrSYK22uTb9GuAZVeqGw=w526-h296", "https://play-lh.googleusercontent.com/y9z37CuT-YtZnWzTL2Ad1jmG3YxFMpXEwjsXJ2y0AgSJPhmxZ1Pf0SKOYAqHblCJ9A=w526-h296", "https://play-lh.googleusercontent.com/2AREEwBVXqOrBTkuqYH2Q8llzJTbQKAf1EQyYBESfXdNf0KSywfAFCodrY-TVxH8qLc=w526-h296", "https://play-lh.googleusercontent.com/2AREEwBVXqOrBTkuqYH2Q8llzJTbQKAf1EQyYBESfXdNf0KSywfAFCodrY-TVxH8qLc=w526-h296", "https://play-lh.googleusercontent.com/eYwrBsUE9qpxnz2OJTqbLlGxaWSn9lNMl_v99ZOnKD_yNRoweD8jluLQWGNhOVrNM06u=w526-h296", "https://play-lh.googleusercontent.com/rLU1hdqqizwFU9YTGzEVPrza2rvnS04cj3uKuw5lyOCZKlkJaE0LjgdcWlZ9YjV1YLo=w526-h296", "https://play-lh.googleusercontent.com/yFxoqFPQxSdLlfHJQQpPFpDwtqvdaVccw9MUkiJ7_L9ju1vji3aukxB-KFsYgMeBxig=w526-h296"],
         oldVersions: []
     },
     {
@@ -367,7 +369,7 @@ const apps = [
         description: `<h3>📂 File Manager</h3><p>ZArchiver helps you manage and extract compressed files.</p><h3>📱 Features</h3><ul><li>ZIP, RAR, 7Z support</li><li>Password protection</li><li>Simple UI</li></ul>`,
         downloadUrl: "https://www.mediafire.com/file/t70vm57n2bk4yap/Zarchiver.apk/file",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
+        screenshots: ["https://play-lh.googleusercontent.com/gKQ-g_ftYkM5UwRn8ZHzI6pBsWmefZqk0zMyjy2ZU75empVVWLYqnwBURl39Kzlqqw=w526-h296", "https://play-lh.googleusercontent.com/hDL0GqhXUsMHOWOTIyp_56xd6If7i48fE_1KAKNMvtqWi3Ll_6kLxuKCNmd11QgaRp0=w526-h296", "https://play-lh.googleusercontent.com/4DfYsNDFO_J--oaH8Epmb2SIcdovfOyfvlZ2SgwktKlICEPLHi21bD-v0MWzDmDq5FY=w526-h296", "https://play-lh.googleusercontent.com/7a1qe0Wvc-hhXMFc17kRiU2FsnUpEdaTn_qrVVa0ThrYtM1s3aLltgm7-Vl5L2Q_dTc=w526-h296", "https://play-lh.googleusercontent.com/5_B7rs-4ftPzf3k9I-1mei4eFPoBDLs2pnt9g8x9F-PXaHsWPCSV2rshiZ-JSRIjqbY=w526-h296", "https://play-lh.googleusercontent.com/envptXJHuduvJYX6fMRxm4-K8GotQ4-w48-o0ganC86zOFLtYHLiv4EQJGH_8C8pag=w526-h296"],
         oldVersions: []
     },
     {
@@ -405,26 +407,7 @@ const apps = [
         description: `<h3>📘 Learning App</h3><p>Eduport provides courses, tutorials, and learning resources for students.</p><h3>📱 Features</h3><ul><li>Interactive lessons</li><li>Quizzes & assignments</li><li>Offline content access</li></ul>`,
         downloadUrl: "https://www.mediafire.com/file/19aa1lzdyy4q2e3/Eduport_Learning_App_8.0.4.voltnexis.zip/file",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
-        oldVersions: []
-    },
-    {
-        id: 24,
-        name: "EUT Wallet",
-        developer: "EUT Team",
-        tagline: "Digital Wallet",
-        icon: "../img/eut-wallet.webp",
-        rating: 4.2,
-        category: "finance",
-        trending: false,
-        new: false,
-        version: "2.3.1",
-        size: "18MB",
-        lastUpdated: "Aug 20, 2025",
-        description: `<h3>💳 Wallet App</h3><p>EUT Wallet helps manage your digital money securely.</p><h3>📱 Features</h3><ul><li>Send & receive funds</li><li>Transaction history</li><li>Secure encryption</li></ul>`,
-        downloadUrl: "https://www.mediafire.com/file/58qj1z6r3xs9le9/Eutwallet.apk/file",
-        apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
+        screenshots: ["https://play-lh.googleusercontent.com/diB7LK6C3omeU0wO0EXyglH_pBDFFsZqzKStQaeVkZDHToZrqwJsbfzU3huBaL8KNg=w526-h296", "https://play-lh.googleusercontent.com/0cvqT7G0aC09j5rBYgISP6MKHbHmOe6B_j_AutXjoPsFgvJJ8WzObLqpG7u-lv1ICA=w526-h296", "https://play-lh.googleusercontent.com/rdWyBdQ6kUKjgNE6NqE4DYxFxNXNYRHeNVqUiy_sS9uTrvzfjCVHOIIWzlVk7uvGFuQ=w526-h296", "https://play-lh.googleusercontent.com/yeMlhYvGvo5gnY_7IITjcUFXr6pHhHgvaoE7TH8XtljhUvLjhIrZxsbO6RlXM6wasbw=w526-h296", "https://play-lh.googleusercontent.com/46loeX6MAjb4rWpF2qGN4lUTezsFSZAAOxuW2dSMBKUozjr9p6YkbbBzbckS1j0Pjw=w526-h296"],
         oldVersions: []
     },
     {
@@ -462,7 +445,6 @@ const apps = [
         description: `<h3>🛒 App Store</h3><p>Browse and download any apps.</p><h3>✨ Features</h3><ul><li>Simple UI</li><li>Fast downloads</li><li>Secure apps</li></ul>`,
         downloadUrl: "../files/appstore-v1.1-voltnexis.apk",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: []
     },
     {
@@ -481,7 +463,6 @@ const apps = [
         description: `<h3>🤖 Codexaura AI</h3><p>Your intelligent AI companion.</p><h3>✨ Features</h3><ul><li>Quick answers</li><li>Smart writing</li><li>AI chat</li></ul>`,
         downloadUrl: "../files/codexaura-ai-v1.0-voltnexis.apk",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: []
     },
     {
@@ -500,7 +481,6 @@ const apps = [
         description: `<h3>🛍️ Eshop</h3><p>Buy your favorite products online.</p><h3>✨ Features</h3><ul><li>Wide categories</li><li>Secure payments</li><li>Fast delivery</li></ul>`,
         downloadUrl: "../files/eshop-v1-voltnexis.apk",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: []
     },
     {
@@ -519,7 +499,6 @@ const apps = [
         description: `<h3>🔧 Fixmitra Providers Hub</h3><p>Connect and manage service providers.</p><h3>✨ Features</h3><ul><li>Provider management</li><li>Job tracking</li><li>Fast support</li></ul>`,
         downloadUrl: "../files/fixmitra-(providers-hub)-voltnexis.apk",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: []
     },
     {
@@ -538,7 +517,6 @@ const apps = [
         description: `<h3>🛠️ Fixmitra</h3><p>Get your services and repairs done easily.</p><h3>✨ Features</h3><ul><li>Book services</li><li>Track orders</li><li>Trusted providers</li></ul>`,
         downloadUrl: "../files/fixmitra-v1.1-voltnexis.apk",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: []
     },
     {
@@ -557,7 +535,6 @@ const apps = [
         description: `<h3>💻 PC Builds</h3><p>Plan and configure your dream PC.</p><h3>✨ Features</h3><ul><li>Custom PC builder</li><li>Component database</li><li>Performance estimator</li></ul>`,
         downloadUrl: "../files/pcbuilds-v1.1-voltnexis.apk",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: []
     },
     {
@@ -576,7 +553,6 @@ const apps = [
         description: `<h3>💬 Quotes</h3><p>Get motivational quotes every day.</p><h3>✨ Features</h3><ul><li>Daily updates</li><li>Beautiful UI</li><li>Share easily</li></ul>`,
         downloadUrl: "../files/qoutes-voltnexis.apk",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: []
     },
     {
@@ -595,7 +571,6 @@ const apps = [
         description: `<h3>🖼️ VN Wallpapers</h3><p>Customize your device with beautiful wallpapers.</p><h3>✨ Features</h3><ul><li>HD wallpapers</li><li>Categories</li><li>One-tap set</li></ul>`,
         downloadUrl: "../files/vn-wallpapers.apk",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: []
     },
     {
@@ -614,7 +589,6 @@ const apps = [
         description: `<h3>⚡ Voltnexis</h3><p>The main Voltnexis utility app.</p><h3>✨ Features</h3><ul><li>All-in-one tools</li><li>Simple interface</li><li>Fast and reliable</li></ul>`,
         downloadUrl: "../files/voltnexis-v1.9.apk",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: []
     },
     {
@@ -633,7 +607,6 @@ const apps = [
         description: `<h3>⏲️ Voltnexis Timer</h3><p>Manage your time effectively.</p><h3>✨ Features</h3><ul><li>Custom timers</li><li>Reminders</li><li>Lightweight</li></ul>`,
         downloadUrl: "../files/voltnexis-timer.apk",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: []
     },
     {
@@ -652,7 +625,6 @@ const apps = [
         description: `<h3>🌍 Wandermatch</h3><p>Find travel partners and explore new places.</p><h3>✨ Features</h3><ul><li>Travel matching</li><li>Profile system</li><li>Secure messaging</li></ul>`,
         downloadUrl: "../files/wandermatch-v5.8.3-voltnexis.apk",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: []
     },
     {
@@ -671,7 +643,6 @@ const apps = [
         description: `<h3>🌐 Webcreator</h3><p>Create your own websites easily.</p><h3>✨ Features</h3><ul><li>Drag & drop builder</li><li>Responsive design</li><li>Fast exports</li></ul>`,
         downloadUrl: "../files/webcreator-voltnexis.apk",
         apkObb: false,
-        screenshots: ["https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350", "https://via.placeholder.com/200x350"],
         oldVersions: []
     },
     {
@@ -747,9 +718,13 @@ const apps = [
     size: "3.8GB",
     lastUpdated: "Dec 10, 2024",
     description: `<h3>🎨 Fully Remastered Visuals</h3><p>Better lighting, polished models and modern optimization.</p><h3>🔹 New Features</h3><ul><li>HD character models</li><li>Improved controls</li><li>Better texture clarity</li></ul>`,
-    downloadUrl: "https://www.mediafire.com/file/vcde101/gta-vc-de-v1.01.apk/file",
-    obbUrl: "https://www.mediafire.com/file/vcde101obb/gta-vc-de-v1.01.obb/file",
-    apkObb: true,
+    downloads: [
+        { type: "Tutorial", url: "https://www.mediafire.com/file/gta-vc-tutorial/GTA_VC_DE_Installation_Guide.pdf/file", size: "YT" },
+        { type: "APK Part 1", url: "https://github.com/privatevoltnexis/appshub/releases/download/v3/GTA.VC.-.DE.-.ATOM.GUY.z01", size: "2GB" },
+        { type: "APK Part 2", url: "https://github.com/privatevoltnexis/appshub/releases/download/v3/GTA.VC.-.DE.-.ATOM.GUY.zip", size: "1010GB" }
+    ],
+    multiPart: true,
+    hasTutorial: true,
     screenshots: ["https://play-lh.googleusercontent.com/aNAmwSXwoeBzVHojshMQVjlI_EAVQq2NWqazKPWcfrDMIXKBpDjuKVysxSzzFAfoplc=w526-h296","https://play-lh.googleusercontent.com/8853chD8RhUenlKgRSleUeyD84QwWoaVScYPtPUADn6s2pMzVl0YbweeOY1m6tdFtg=w526-h296","https://play-lh.googleusercontent.com/6hRxB1WR6UAxl5mI5uLt2WVq8PNOg8yOTZG9e1jinEjGhdAsZysnWT0JUbPmFikSy9Y=w526-h296", "https://play-lh.googleusercontent.com/MU2_TJK-yLj_BvkacKhC5RRhhBjssJ6Q8iWh_vsFwGp0pD9iZKft8j7vxoDhT7eZSw=w526-h296", "https://play-lh.googleusercontent.com/SQeDfHeFB6jUywShrcZSgtBMtfPHzzMHyo0q4IjxeKZXWK47lgDScErcDaNwGthuZg=w526-h296"],
     oldVersions: []
 },

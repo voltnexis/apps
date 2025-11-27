@@ -91,13 +91,37 @@ function loadAppDetails() {
         ratingText.textContent = `${currentApp.rating} (${Math.floor(Math.random() * 5000 + 100)} reviews)`;
     }
     
-    // Update download buttons
-    downloadBtn.setAttribute('data-download-url', currentApp.downloadUrl);
+    // Handle multi-part downloads or regular downloads
+    const downloadButtons = document.getElementById('downloadButtons');
+    downloadButtons.innerHTML = '';
     
-    // Show OBB button if app has APK+OBB
-    if (currentApp.apkObb && currentApp.obbUrl) {
-        obbBtn.style.display = 'inline-flex';
-        obbBtn.setAttribute('data-download-url', currentApp.obbUrl);
+    if (currentApp.downloads && currentApp.downloads.length > 0) {
+        currentApp.downloads.forEach(download => {
+            const btn = document.createElement('button');
+            btn.className = 'download-btn';
+            if (download.type.includes('Tutorial')) {
+                btn.innerHTML = `<i class="fas fa-book"></i> ${download.type}`;
+                btn.classList.add('tutorial-btn');
+            } else {
+                btn.innerHTML = `<i class="fas fa-download"></i> ${download.type} (${download.size})`;
+            }
+            btn.setAttribute('data-download-url', download.url);
+            btn.addEventListener('click', function() {
+                const downloadUrl = this.getAttribute('data-download-url');
+                startMediaFireDownload(downloadUrl);
+                showOverlayAd();
+            });
+            downloadButtons.appendChild(btn);
+        });
+    } else {
+        // Fallback to old system
+        downloadBtn.setAttribute('data-download-url', currentApp.downloadUrl);
+        
+        // Show OBB button if app has APK+OBB
+        if (currentApp.apkObb && currentApp.obbUrl) {
+            obbBtn.style.display = 'inline-flex';
+            obbBtn.setAttribute('data-download-url', currentApp.obbUrl);
+        }
     }
     
     // Load old versions
