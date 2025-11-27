@@ -969,7 +969,7 @@ const apps = [
             <li>General performance improvements</li>
         </ul>`,
     downloads: [
-        { type: "Tutorial", size: "YT-Video", url: "https://www.mediafire.com/file/gta-de-part1/GTA_DE_Trilogy_Part1.rar/file" },
+        { type: "Tutorial", size: "YT-Video", url: "https://www.instagram.com/reels/DBQztB5yuJ8/" },
         { type: "Part 1", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.Definitive.Edition.-.Atom.Guy.part01.rar" },
         { type: "Part 2", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.Definitive.Edition.-.Atom.Guy.part02.rar" },
         { type: "Part 3", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.Definitive.Edition.-.Atom.Guy.part03.rar" },
@@ -1013,7 +1013,7 @@ const apps = [
             <li>Performance stability improvements</li>
         </ul>`,
     downloads: [
-        { type: "Tutorial", size: "YT-Video", url: "https://www.mediafire.com/file/gta-de-part1/GTA_DE_Trilogy_Part1.rar/file" },
+        { type: "Tutorial", size: "YT-Video", url: "https://www.instagram.com/reels/DBQztB5yuJ8/" },
         { type: "Part 1", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.VC.Definitive.Edition.-.Atom.Guy.part1.rar" },
         { type: "Part 2", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.VC.Definitive.Edition.-.Atom.Guy.part2.rar" },
         { type: "Part 3", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.VC.Definitive.Edition.-.Atom.Guy.part3.rar" },
@@ -1052,7 +1052,7 @@ const apps = [
             <li>Minor performance/bug fixes</li>
         </ul>`,
     downloads: [
-        { type: "Tutorial", size: "YT-Video", url: "https://www.mediafire.com/file/gta-de-part1/GTA_DE_Trilogy_Part1.rar/file" },
+        { type: "Tutorial", size: "YT-Video", url: "https://www.instagram.com/reels/DBQztB5yuJ8/" },
         { type: "Part 1", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.III.Definitive.Edition.-.Atom.Guy.part1.rar" },
         { type: "Part 2", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.III.Definitive.Edition.-.Atom.Guy.part2.rar" },
         { type: "Part 3", size: "192MB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.III.Definitive.Edition.-.Atom.Guy.part3.rar" }
