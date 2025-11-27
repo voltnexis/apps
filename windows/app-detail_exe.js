@@ -73,7 +73,9 @@ const adData = {
         { img: 'https://i.ibb.co/whpC94qr/1.jpg', url: 'https://wandermatch.vercel.app' },
         { img: 'https://i.ibb.co/S4ykt4Hz/1.jpg', url: 'https://servetracko.vercel.app' },
         { img: 'https://i.ibb.co/0VMPrK9b/1.jpg', url: 'https://voltnexis.github.io/web2app' },
-        { img: 'https://i.ibb.co/Q3HT70gR/1.jpg', url: 'https://voltnexisstudio.vercel.app' }
+        { img: 'https://i.ibb.co/Q3HT70gR/1.jpg', url: 'https://voltnexisstudio.vercel.app' },
+        { img: 'https://i.ibb.co/DDKX9kgx/1.jpg', url: 'https://voltnexis.github.io/pureparent' },
+        { img: 'https://i.ibb.co/G4RwvC85/1.jpg', url: 'https://voltnexis.github.io/promptverse' },
     ],
     square: [
         { img: 'https://i.ibb.co/3y51t5tr/9.png', url: 'https://voltnexis.github.io' },
@@ -85,7 +87,9 @@ const adData = {
         { img: 'https://i.ibb.co/dsc56TNw/2.jpg', url: 'https://wandermatch.vercel.app' },
         { img: 'https://i.ibb.co/bgmYdzvV/2.jpg', url: 'https://servetracko.vercel.app' },
         { img: 'https://i.ibb.co/Q33cZsXT/2.jpg', url: 'https://voltnexis.github.io/web2app' },
-        { img: 'https://i.ibb.co/whdw8c5G/2.jpg', url: 'https://voltnexisstudio.vercel.app' }
+        { img: 'https://i.ibb.co/whdw8c5G/2.jpg', url: 'https://voltnexisstudio.vercel.app' },
+        { img: 'https://i.ibb.co/gLwgqr62/2.jpg', url: 'https://voltnexis.github.io/pureparent' },
+        { img: 'https://i.ibb.co/WWS6hhFz/2.jpg', url: 'https://voltnexis.github.io/promptverse' },
     ],
     vertical: [
         { img: 'https://i.ibb.co/mCWVTVVd/8.png', url: 'https://voltnexis.github.io' },
@@ -96,7 +100,10 @@ const adData = {
         { img: 'https://i.ibb.co/j9RfH5J3/3.jpg', url: 'https://wandermatch.vercel.app' },
         { img: 'https://i.ibb.co/ksPRY3jg/3.jpg', url: 'https://servetracko.vercel.app' },
         { img: 'https://i.ibb.co/Wv33w9yp/3.jpg', url: 'https://voltnexis.github.io/web2app' },
-        { img: 'https://i.ibb.co/2Ym2nYq2/3.jpg', url: 'https://voltnexisstudio.vercel.app' }
+        { img: 'https://i.ibb.co/2Ym2nYq2/3.jpg', url: 'https://voltnexisstudio.vercel.app' },
+        { img: 'https://i.ibb.co/ksJFNcY7/3.jpg', url: 'https://voltnexis.github.io/pureparent' },
+        { img: 'https://i.ibb.co/8D9Mhpzh/3.jpg', url: 'https://voltnexis.github.io/promptverse' },
+        { img: 'https://i.ibb.co/0yhmx1S9/22.jpg', url: 'https://voltnexis.github.io/promptverse' },
     ],
     wide: [
         { img: 'https://i.ibb.co/wZ0Dcvw2/10.png', url: 'https://voltnexis.github.io' },
@@ -109,7 +116,9 @@ const adData = {
         { img: 'https://i.ibb.co/21wF8Vwj/1.jpg', url: 'https://voltnexis.github.io/learn' },
         { img: 'https://i.ibb.co/LX0rzTNJ/4.jpg', url: 'https://wandermatch.vercel.app' },
         { img: 'https://i.ibb.co/qhRGpGt/4.jpg', url: 'https://servetracko.vercel.app' },
-        { img: 'https://i.ibb.co/XrL0b1Fj/4.jpg', url: 'https://voltnexisstudio.vercel.app' }
+        { img: 'https://i.ibb.co/XrL0b1Fj/4.jpg', url: 'https://voltnexisstudio.vercel.app' },
+        { img: 'https://i.ibb.co/bfD6Vnc/4.jpg', url: 'https://voltnexis.github.io/pureparent' },
+        { img: 'https://i.ibb.co/CKrzYy8t/4.jpg', url: 'https://voltnexis.github.io/promptverse' },
     ],
     overlay: [
         { img: 'https://i.ibb.co/21RWyFTp/7.png', url: 'https://voltnexis.github.io' },
@@ -121,7 +130,9 @@ const adData = {
         { img: 'https://i.ibb.co/KgDFHsY/5.jpg', url: 'https://wandermatch.vercel.app' },
         { img: 'https://i.ibb.co/sdvF438P/5.jpg', url: 'https://servetracko.vercel.app' },
         { img: 'https://i.ibb.co/79tSz7H/5.jpg', url: 'https://voltnexis.github.io/web2app' },
-        { img: 'https://i.ibb.co/jZG35S2P/5.jpg', url: 'https://voltnexisstudio.vercel.app' }
+        { img: 'https://i.ibb.co/jZG35S2P/5.jpg', url: 'https://voltnexisstudio.vercel.app' },
+        { img: 'https://i.ibb.co/ynBFgDJz/5.jpg', url: 'https://voltnexis.github.io/pureparent' },
+        { img: 'https://i.ibb.co/N6qDYN44/5.jpg', url: 'https://voltnexis.github.io/promptverse' },
         
     ]
 };
