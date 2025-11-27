@@ -927,7 +927,21 @@ const apps = [
             <li>Latest Rockstar patch integration</li>
         </ul>`,
     downloads: [
-        { type: "Game", size: "14.9GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.Full.Setup.rar" }
+        { type: "Tutorial", size: "YT-Video", url: "https://www.instagram.com/reels/DBQztB5yuJ8/" },
+        { type: "Part 1", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part01.rar" },
+        { type: "Part 2", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part02.rar" },
+        { type: "Part 3", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part03.rar" },
+        { type: "Part 4", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part04.rar" },
+        { type: "Part 5", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part05.rar" },
+        { type: "Part 6", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part06.rar" },
+        { type: "Part 7", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part07.rar" },
+        { type: "Part 8", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part08.rar" },
+        { type: "Part 9", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part09.rar" },
+        { type: "Part 10", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part10.rar" },
+        { type: "Part 11", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part11.rar" },
+        { type: "Part 12", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part12.rar" },
+        { type: "Part 13", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part13.rar" },
+        { type: "Part 14", size: "276MB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.IV.-.ATOM.GUY.EDITION.part14.rar" }
     ],
     screenshots: ["https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/5576e5d2cd0f451508d8b025b77e7250.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/cae6f19ea5ca9f4dca32ad0e6c149bf0.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/64735be0708ba85d2d31130b0b5ded19.jpg", "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/86f4cb49763c34e9816535006f5e6a08.jpg"],
     oldVersions: []
@@ -955,7 +969,17 @@ const apps = [
             <li>General performance improvements</li>
         </ul>`,
     downloads: [
-        { type: "Game", size: "22GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.DE.Full.zip" }
+        { type: "Tutorial", size: "YT-Video", url: "https://www.mediafire.com/file/gta-de-part1/GTA_DE_Trilogy_Part1.rar/file" },
+        { type: "Part 1", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.Definitive.Edition.-.Atom.Guy.part01.rar" },
+        { type: "Part 2", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.Definitive.Edition.-.Atom.Guy.part02.rar" },
+        { type: "Part 3", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.Definitive.Edition.-.Atom.Guy.part03.rar" },
+        { type: "Part 4", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.Definitive.Edition.-.Atom.Guy.part04.rar" },
+        { type: "Part 5", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.Definitive.Edition.-.Atom.Guy.part05.rar" },
+        { type: "Part 6", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.Definitive.Edition.-.Atom.Guy.part06.rar" },
+        { type: "Part 7", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.Definitive.Edition.-.Atom.Guy.part07.rar" },
+        { type: "Part 8", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.Definitive.Edition.-.Atom.Guy.part08.rar" },
+        { type: "Part 9", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.Definitive.Edition.-.Atom.Guy.part09.rar" },
+        { type: "Part 10", size: "207MB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.SA.Definitive.Edition.-.Atom.Guy.part10.rar" }
     ],
     screenshots: [
         "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/5c00b0e39ea1fa1e867a6402ed9f4761.jpg",
@@ -989,7 +1013,12 @@ const apps = [
             <li>Performance stability improvements</li>
         </ul>`,
     downloads: [
-        { type: "Game", size: "18GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.VC.DE.Full.iso" }
+        { type: "Tutorial", size: "YT-Video", url: "https://www.mediafire.com/file/gta-de-part1/GTA_DE_Trilogy_Part1.rar/file" },
+        { type: "Part 1", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.VC.Definitive.Edition.-.Atom.Guy.part1.rar" },
+        { type: "Part 2", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.VC.Definitive.Edition.-.Atom.Guy.part2.rar" },
+        { type: "Part 3", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.VC.Definitive.Edition.-.Atom.Guy.part3.rar" },
+        { type: "Part 4", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.VC.Definitive.Edition.-.Atom.Guy.part4.rar" },
+        { type: "Part 5", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.VC.Definitive.Edition.-.Atom.Guy.part5.rar" }
     ],
     screenshots: [
         "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/aa480237baeaa2aeb0df779e3b42e840.jpg",
@@ -1023,7 +1052,10 @@ const apps = [
             <li>Minor performance/bug fixes</li>
         </ul>`,
     downloads: [
-        { type: "Game", size: "12GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.3.DE.Setup.zip" }
+        { type: "Tutorial", size: "YT-Video", url: "https://www.mediafire.com/file/gta-de-part1/GTA_DE_Trilogy_Part1.rar/file" },
+        { type: "Part 1", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.III.Definitive.Edition.-.Atom.Guy.part1.rar" },
+        { type: "Part 2", size: "2GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.III.Definitive.Edition.-.Atom.Guy.part2.rar" },
+        { type: "Part 3", size: "192MB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.III.Definitive.Edition.-.Atom.Guy.part3.rar" }
     ],
     screenshots: [
         "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/2d0db280cc91d285f6ed5eb64f3d9d8e.jpg",
@@ -1057,7 +1089,7 @@ const apps = [
             <li>General stability and performance improvements</li>
         </ul>`,
     downloads: [
-        { type: "Game", size: "95GB", url: "https://github.com/privatevoltnexis/appshub/releases/download/v1/GTA.V.Full-Repack.zip" }
+        { type: "Coming Soon", size: "95GB", url: "coming soon" }
     ],
     screenshots: [
         "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/9ca23774eb886a9dce533874723e35ce7a825f5d.png",
@@ -1072,8 +1104,6 @@ const apps = [
     ],
     oldVersions: []
 }
-
-
 
 ];
 

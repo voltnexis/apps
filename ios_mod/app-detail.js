@@ -76,22 +76,46 @@ function loadAppDetails() {
     jailbreakText.textContent = currentApp.jailbreakText;
     appDescription.innerHTML = currentApp.description;
     
-    // Create download button
+    // Handle multi-part downloads or regular downloads
     downloadOptions.innerHTML = '';
-    const downloadBtn = document.createElement('a');
-    downloadBtn.className = 'download-btn';
-    downloadBtn.href = currentApp.downloadUrl;
-    downloadBtn.innerHTML = `
-        <div class="download-info">
-            <i class="fas fa-download"></i>
-            <div>
-                <div>Download IPA MOD</div>
-                <div style="font-size: 12px; opacity: 0.8;">${currentApp.size} • MediaFire</div>
+    
+    if (currentApp.downloads && currentApp.downloads.length > 0) {
+        currentApp.downloads.forEach(download => {
+            const downloadBtn = document.createElement('a');
+            downloadBtn.className = 'download-btn';
+            if (download.type.includes('Tutorial')) {
+                downloadBtn.classList.add('tutorial-btn');
+            }
+            downloadBtn.href = download.url;
+            downloadBtn.innerHTML = `
+                <div class="download-info">
+                    <i class="fas fa-${download.type.includes('Tutorial') ? 'book' : 'download'}"></i>
+                    <div>
+                        <div>${download.type}</div>
+                        <div style="font-size: 12px; opacity: 0.8;">${download.size} • MediaFire</div>
+                    </div>
+                </div>
+                <i class="fas fa-external-link-alt"></i>
+            `;
+            downloadOptions.appendChild(downloadBtn);
+        });
+    } else {
+        // Fallback to old system
+        const downloadBtn = document.createElement('a');
+        downloadBtn.className = 'download-btn';
+        downloadBtn.href = currentApp.downloadUrl;
+        downloadBtn.innerHTML = `
+            <div class="download-info">
+                <i class="fas fa-download"></i>
+                <div>
+                    <div>Download IPA MOD</div>
+                    <div style="font-size: 12px; opacity: 0.8;">${currentApp.size} • MediaFire</div>
+                </div>
             </div>
-        </div>
-        <i class="fas fa-external-link-alt"></i>
-    `;
-    downloadOptions.appendChild(downloadBtn);
+            <i class="fas fa-external-link-alt"></i>
+        `;
+        downloadOptions.appendChild(downloadBtn);
+    }
     
     // Load old versions
     loadOldVersions();

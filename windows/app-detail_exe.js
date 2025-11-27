@@ -155,7 +155,20 @@ function loadAppDetails() {
         currentApp.downloads.forEach(download => {
             const btn = document.createElement('button');
             btn.className = 'download-btn';
-            btn.innerHTML = `<i class="fab fa-windows"></i> Download EXE (${download.type})`;
+            if (download.type.includes('Tutorial')) {
+                btn.innerHTML = `<i class="fas fa-book"></i> ${download.type}`;
+                btn.classList.add('tutorial-btn');
+            } else if (download.type.includes('Coming Soon')) {
+                btn.innerHTML = `<i class="fas fa-clock"></i> ${download.type}`;
+                btn.classList.add('coming-soon-btn');
+                btn.disabled = true;
+            } else if (download.type.includes('Game') || download.type === 'game') {
+                btn.innerHTML = `<i class="fas fa-gamepad"></i> Download Game (${download.size})`;
+            } else if (download.type.includes('Part')) {
+                btn.innerHTML = `<i class="fas fa-download"></i> ${download.type} (${download.size})`;
+            } else {
+                btn.innerHTML = `<i class="fab fa-windows"></i> Download EXE (${download.type})`;
+            }
             btn.setAttribute('data-download-url', download.url);
             btn.addEventListener('click', function() {
                 const downloadUrl = this.getAttribute('data-download-url');

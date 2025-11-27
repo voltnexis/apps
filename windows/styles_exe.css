@@ -434,6 +434,25 @@ body {
     box-shadow: 0 10px 30px rgba(255, 75, 75, 0.4);
 }
 
+.tutorial-btn {
+    background: linear-gradient(45deg, #FF1493, #C71585);
+}
+
+.tutorial-btn:hover {
+    box-shadow: 0 10px 30px rgba(255, 20, 147, 0.4);
+}
+
+.coming-soon-btn {
+    background: linear-gradient(45deg, #808080, #696969);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.coming-soon-btn:hover {
+    box-shadow: none;
+    transform: none;
+}
+
 .ad-blocks {
     display: flex;
     gap: 20px;
