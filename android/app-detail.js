@@ -58,34 +58,61 @@ const closeOverlay = document.getElementById('closeOverlay');
 
 // Initialize page
 document.addEventListener('DOMContentLoaded', function() {
-    // Find app by ID after DOM is loaded
-    if (appId && window.appsData) {
-        const foundApp = window.appsData.find(app => app.id == appId);
-        if (foundApp) {
-            currentApp = foundApp;
+    // Wait for apps data to be available
+    function initializeApp() {
+        console.log('Initializing app with ID:', appId);
+        if (appId && window.appsData) {
+            const foundApp = window.appsData.find(app => app.id == appId);
+            if (foundApp) {
+                currentApp = foundApp;
+                console.log('Found app:', currentApp.name);
+            } else {
+                console.log('App not found with ID:', appId);
+            }
+        } else {
+            console.log('Using default app data');
         }
+        loadAppDetails();
+        setupEventListeners();
     }
-    loadAppDetails();
-    setupEventListeners();
+    
+    // Check if apps data is already available
+    if (window.appsData) {
+        initializeApp();
+    } else {
+        // Wait for apps data to load
+        const checkAppsData = setInterval(() => {
+            if (window.appsData) {
+                clearInterval(checkAppsData);
+                initializeApp();
+            }
+        }, 100);
+    }
 });
 
 function loadAppDetails() {
     // Update page title
     document.title = `${currentApp.name} - APKDownload by VoltNexis`;
     
-    // Update app details
-    appIcon.src = currentApp.icon || 'https://via.placeholder.com/120';
-    appIcon.alt = currentApp.name;
-    appName.textContent = currentApp.name;
-    developerName.textContent = currentApp.developer;
-    developerName.href = `../developer/index.html?name=${encodeURIComponent(currentApp.developer)}`;
-    appVersion.textContent = currentApp.version;
-    appSize.textContent = currentApp.size;
-    lastUpdated.textContent = currentApp.lastUpdated;
-    appDescription.innerHTML = currentApp.description;
+    // Update app details with null checks
+    if (appIcon) {
+        appIcon.src = currentApp.icon || 'https://via.placeholder.com/120';
+        appIcon.alt = currentApp.name;
+    }
+    if (appName) appName.textContent = currentApp.name;
+    if (developerName) {
+        developerName.textContent = currentApp.developer;
+        developerName.href = `../developer/index.html?name=${encodeURIComponent(currentApp.developer)}`;
+    }
+    if (appVersion) appVersion.textContent = currentApp.version;
+    if (appSize) appSize.textContent = currentApp.size;
+    if (lastUpdated) lastUpdated.textContent = currentApp.lastUpdated;
+    if (appDescription) appDescription.innerHTML = currentApp.description;
     
     // Update rating stars and text
-    appRating.innerHTML = generateStars(currentApp.rating);
+    if (appRating) {
+        appRating.innerHTML = generateStars(currentApp.rating);
+    }
     const ratingText = document.querySelector('.rating-text');
     if (ratingText) {
         ratingText.textContent = `${currentApp.rating} (${Math.floor(Math.random() * 5000 + 100)} reviews)`;
@@ -93,34 +120,58 @@ function loadAppDetails() {
     
     // Handle multi-part downloads or regular downloads
     const downloadButtons = document.getElementById('downloadButtons');
-    downloadButtons.innerHTML = '';
-    
-    if (currentApp.downloads && currentApp.downloads.length > 0) {
-        currentApp.downloads.forEach(download => {
-            const btn = document.createElement('button');
-            btn.className = 'download-btn';
-            if (download.type.includes('Tutorial')) {
-                btn.innerHTML = `<i class="fas fa-book"></i> ${download.type}`;
-                btn.classList.add('tutorial-btn');
-            } else {
-                btn.innerHTML = `<i class="fas fa-download"></i> ${download.type} (${download.size})`;
-            }
-            btn.setAttribute('data-download-url', download.url);
-            btn.addEventListener('click', function() {
-                const downloadUrl = this.getAttribute('data-download-url');
-                startMediaFireDownload(downloadUrl);
-                showOverlayAd();
-            });
-            downloadButtons.appendChild(btn);
-        });
-    } else {
-        // Fallback to old system
-        downloadBtn.setAttribute('data-download-url', currentApp.downloadUrl);
+    if (downloadButtons) {
+        downloadButtons.innerHTML = '';
         
-        // Show OBB button if app has APK+OBB
-        if (currentApp.apkObb && currentApp.obbUrl) {
-            obbBtn.style.display = 'inline-flex';
-            obbBtn.setAttribute('data-download-url', currentApp.obbUrl);
+        if (currentApp.downloads && currentApp.downloads.length > 0) {
+            currentApp.downloads.forEach(download => {
+                const btn = document.createElement('button');
+                btn.className = 'download-btn';
+                if (download.type.includes('Tutorial')) {
+                    btn.innerHTML = `<i class="fas fa-book"></i> ${download.type}`;
+                    btn.classList.add('tutorial-btn');
+                } else {
+                    btn.innerHTML = `<i class="fas fa-download"></i> ${download.type} (${download.size})`;
+                }
+                btn.setAttribute('data-download-url', download.url);
+                btn.addEventListener('click', function() {
+                    const downloadUrl = this.getAttribute('data-download-url');
+                    startMediaFireDownload(downloadUrl);
+                    showOverlayAd();
+                });
+                downloadButtons.appendChild(btn);
+            });
+        } else {
+            // Fallback to old system - recreate the download button
+            const mainDownloadBtn = document.createElement('button');
+            mainDownloadBtn.className = 'download-btn';
+            mainDownloadBtn.id = 'downloadBtn';
+            mainDownloadBtn.innerHTML = '<i class="fas fa-download"></i> Download APK';
+            mainDownloadBtn.setAttribute('data-download-url', currentApp.downloadUrl);
+            mainDownloadBtn.addEventListener('click', function() {
+                const downloadUrl = this.getAttribute('data-download-url');
+                if (downloadUrl) {
+                    startMediaFireDownload(downloadUrl);
+                    showOverlayAd();
+                }
+            });
+            downloadButtons.appendChild(mainDownloadBtn);
+            
+            // Show OBB button if app has APK+OBB
+            if (currentApp.apkObb && currentApp.obbUrl) {
+                const obbDownloadBtn = document.createElement('button');
+                obbDownloadBtn.className = 'download-btn obb-btn';
+                obbDownloadBtn.innerHTML = '<i class="fas fa-cube"></i> Download OBB';
+                obbDownloadBtn.setAttribute('data-download-url', currentApp.obbUrl);
+                obbDownloadBtn.addEventListener('click', function() {
+                    const downloadUrl = this.getAttribute('data-download-url');
+                    if (downloadUrl) {
+                        startMediaFireDownload(downloadUrl);
+                        showOverlayAd();
+                    }
+                });
+                downloadButtons.appendChild(obbDownloadBtn);
+            }
         }
     }
     
@@ -133,37 +184,49 @@ function loadAppDetails() {
 
 function setupEventListeners() {
     // APK Download button
-    downloadBtn.addEventListener('click', function() {
-        const downloadUrl = this.getAttribute('data-download-url');
-        startMediaFireDownload(downloadUrl);
-        showOverlayAd();
-    });
+    if (downloadBtn) {
+        downloadBtn.addEventListener('click', function() {
+            const downloadUrl = this.getAttribute('data-download-url');
+            if (downloadUrl) {
+                startMediaFireDownload(downloadUrl);
+                showOverlayAd();
+            }
+        });
+    }
     
     // OBB Download button
-    obbBtn.addEventListener('click', function() {
-        const downloadUrl = this.getAttribute('data-download-url');
-        startMediaFireDownload(downloadUrl);
-        showOverlayAd();
-    });
+    if (obbBtn) {
+        obbBtn.addEventListener('click', function() {
+            const downloadUrl = this.getAttribute('data-download-url');
+            if (downloadUrl) {
+                startMediaFireDownload(downloadUrl);
+                showOverlayAd();
+            }
+        });
+    }
     
     // Old versions toggle
-    versionsToggle.addEventListener('click', function() {
-        versionsList.classList.toggle('show');
-        this.classList.toggle('fa-chevron-down');
-        this.classList.toggle('fa-chevron-up');
-    });
+    if (versionsToggle && versionsList) {
+        versionsToggle.addEventListener('click', function() {
+            versionsList.classList.toggle('show');
+            this.classList.toggle('fa-chevron-down');
+            this.classList.toggle('fa-chevron-up');
+        });
+    }
     
     // Close overlay ad
-    closeOverlay.addEventListener('click', function() {
-        overlayAd.classList.remove('show');
-    });
-    
-    // Close overlay when clicking outside
-    overlayAd.addEventListener('click', function(e) {
-        if (e.target === this) {
-            this.classList.remove('show');
-        }
-    });
+    if (closeOverlay && overlayAd) {
+        closeOverlay.addEventListener('click', function() {
+            overlayAd.classList.remove('show');
+        });
+        
+        // Close overlay when clicking outside
+        overlayAd.addEventListener('click', function(e) {
+            if (e.target === this) {
+                this.classList.remove('show');
+            }
+        });
+    }
 }
 
 function startMediaFireDownload(downloadUrl) {
