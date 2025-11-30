@@ -679,7 +679,7 @@ const apps = [
     size: "4.9GB",
     lastUpdated: "Nov 30, 2024",
     description: `<h3>✨ Remastered for Modern Devices</h3><p>Experience San Andreas with enhanced textures, lighting, and reworked models.</p><h3>🔸 Improvements</h3><ul><li>Remastered graphics & UI</li><li>Better shadows + reflections</li><li>Updated controls for mobile</li></ul>`,
-    downloadUrl: "https://dl.apkvision.orggta-san-andreas-definitiveGTA-SA-DE-1.86.44544238-full-apkvision.apks",
+    downloadUrl: "https://dl.apkvision.org/gta-san-andreas-definitive/GTA-SA-DE-1.86.44544238-full-apkvision.apks",
     apkObb: false,
     screenshots: ["https://play-lh.googleusercontent.com/-iZT5zq0f4IB29DE51Q2Key6g1ac-Nm2CGp04F9MbA6xflBUFodx2FgQkhLEzJOP18zS=w526-h296","https://play-lh.googleusercontent.com/ddR95FGFZxpEpuNbGmWzgiUd2Q9_AjcyqPUn8QKWci3_nZbDvW3xBnPQcnff3L5WAV4=w526-h296","https://play-lh.googleusercontent.com/-c89O16kd8aR2SXE_OpCd-mUGExMSNEOgdeG8NsUmQAifYzoYUZcGAqn0-qZRXRIRy0=w526-h296", "https://play-lh.googleusercontent.com/0eiVY9gNlW_2GWyLBkdWWF8I1SN-_V6xsE3em272kzLYjGMKc2tdDMWd69dEluSTpnY=w526-h296", "https://play-lh.googleusercontent.com/UC_W50eSwBuHLJh6N_fOTCxqQ3v8bJHhVvFOa0MK6IjkDQg67FSDltE9ft4w9bIk_zo=w526-h296"],
     oldVersions: []
