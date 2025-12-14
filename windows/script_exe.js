@@ -1460,6 +1460,51 @@ const apps = [
       "url": "http://qfiltool.com/wp-content/uploads/Qualcomm_Flash_Image_Loader_v2.0.0.0.zip"
     }
   ]
+},
+    {
+  "id": 56,
+  "name": "Odin Flash Tool (Samsung)",
+  "developer": "Samsung Inc.",
+  "tagline": "The ultimate official utility for flashing Samsung Galaxy firmware.",
+  "icon": "https://8upload.com/image/80c0d26b1e91cf5a/5a31e7e472b4a5c89e43ba5b650bb6685aedeb3dd491e5ece5e76a8e3599f16f_200.jpeg",
+  "rating": 4.8,
+  "category": "utility",
+  "trending": true,
+  "new": false,
+  "version": "3.14.4",
+  "size": "4.3MB",
+  "windowsVersion": "7/8/10/11",
+  "lastUpdated": "Oct 20, 2020 (Latest widely accepted release)",
+  "description": "<h3>⚙️ Purpose & Modes</h3> <p>Odin is a proprietary Windows-based utility used internally by Samsung service centers. It is the only reliable tool for flashing stock firmware, custom binaries (like TWRP), and kernel files to Samsung Galaxy phones and tablets when the device is in <strong>Download Mode</strong>.</p> <h3>🔥 Key Features</h3> <ul> <li>**Stock Firmware Flashing:** Installs multi-file firmware packages (`.tar.md5` format) containing BL, AP, CP, and CSC files.</li> <li>**Unbricking & Recovery:** Essential for recovering soft-bricked Samsung devices (stuck in a bootloop or on the logo).</li> <li>**Custom Binary Support:** Used to flash custom recovery images (like TWRP) for rooting and custom ROM installation.</li> <li>**PIT File Flashing:** Allows re-partitioning of the device memory, which is crucial for major repair operations.</li> </ul>",
+  "downloads": [
+    {
+      "type": "v3.14.4",
+      "size": "4.3MB",
+      "url": "https://samfw.com/Odin/Samfw.com_Odin3_v3.14.4.zip"
+    }
+  ],
+  "screenshots": [
+    "https://8upload.com/image/dfebf28707b44e4f/download-odin-all-version-update-01092020-odin-3144-1000x400.png",
+    "https://8upload.com/image/d96f3c30fd1d9b60/odin-download.jpg",
+    "https://8upload.com/image/40ebdd920b4065ef/odindownload.png"
+  ],
+  "oldVersions": [
+    {
+      "version": "3.14.1",
+      "released": "2019",
+      "url": "https://samfw.com/Odin/Odin3-v3.14.1.zip"
+    },
+    {
+      "version": "3.13.3",
+      "released": "2015",
+      "url": "https://samfw.com/Odin/Odin3_v3.13.3.zip"
+    },
+    {
+      "version": "3.13.1",
+      "released": "2015",
+      "url": "https://samfw.com/Odin/Odin3_v3.13.1_3B_Patched_Samfw.com.rar"
+    }
+  ]
 }
 
 ];
