@@ -1103,6 +1103,139 @@ const apps = [
         "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/a457313ec277b6e74bd25238768cbcecda739549.jpg"
     ],
     oldVersions: []
+},
+    {
+  "id": 52,
+  "name": "SP Flash Tool",
+  "developer": "MediaTek Inc.",
+  "tagline": "The essential tool for flashing MediaTek firmware.",
+  "icon": "https://spflashtool.com/images/sp-flash-logo.png",
+  "rating": 4.5,
+  "category": "utility",
+  "trending": true,
+  "new": false,
+  "version": "5.2152.00",
+  "size": "95MB",
+  "windowsVersion": "7+",
+  "lastUpdated": "Nov 25, 2024",
+  "description": "<h3>Note: Use the password: spflashtool.com to unrar the downloaded files.</h3><br><h3>💻 Features</h3> <p>SmartPhone Flash Tool (SP Flash Tool) is a cross-platform application that allows users to flash stock ROMs, custom ROMs, and recovery images onto MediaTek (MTK) based devices. It is crucial for device maintenance, unbricking, and firmware upgrades.</p> <h3>🔧 Key Functions</h3> <ul> <li>**Firmware Flashing:** Upgrade or downgrade the device firmware (Stock ROM).</li> <li>**Format Device:** Erase all data on the device, including the internal memory.</li> <li>**Memory Test:** Verify the integrity of the device's RAM and NAND/eMMC flash.</li> <li>**Read Back:** Create a full or partial backup of the device's firmware.</li> <li>**Parameter Setting:** Customize flashing operations like download and format options.</li> </ul>",
+  "downloads": [
+    {
+      "type": "v5.1924-Latest",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1924_Win.rar"
+    },
+    {
+      "type": "v5.1916",
+      "size": "85MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool-5.1916_Win.rar"
+    },
+    {
+      "type": "v5.1912",
+      "size": "20MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1912_Win.rar"
+    },
+      {
+      "type": "v5.1904",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1904_Win.rar"
+    },
+      {
+      "type": "v5.1844",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1844_Win.rar"
+    },
+      {
+      "type": "v5.1836",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1836_Win.rar"
+    },
+      {
+      "type": "v5.1824",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1824_Win.rar"
+    },
+      {
+      "type": "v5.1820",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1820_Win.rar"
+    },
+      {
+      "type": "v5.1816"",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1816_Win.rar"
+    },
+      {
+      "type": "v5.1812",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1812_Win.rar"
+    },
+      {
+      "type": "v5.1804",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1804_Win.rar"
+    },
+      {
+      "type": "v5.1752",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1752_Win.rar"
+    },
+      {
+      "type": "v5.1744",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1744_Win.rar"
+    },
+      {
+      "type": "v5.1736",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1736_Win.rar"
+    },
+      {
+      "type": "v5.172",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1728_Win.rar"
+    },
+      {
+      "type": "v5.1724",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1724_Win.rar"
+    },
+      {
+      "type": "v5.1720",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1720_Win.rar"
+    },
+      {
+      "type": "v5.1716",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1716_Win.rar"
+    },
+      {
+      "type": "v5.1712",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1712_Win.rar"
+    },
+      {
+      "type": "v5.1708",
+      "size": "95MB",
+      "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1708_Win.rar"
+    }   
+  ],
+  "screenshots": [
+    "https://i.imgur.com/SPFlashTool_DownloadTab.png",
+    "https://i.imgur.com/SPFlashTool_ScatterLoading.png",
+    "https://i.imgur.com/SPFlashTool_FormatTab.png"
+  ],
+  "oldVersions": [
+    {
+      "version": "5.2044.00",
+      "released": "May 10, 2024"
+    },
+    {
+      "version": "5.1924.00",
+      "released": "Jan 15, 2024"
+    }
+  ]
 }
 
 ];
