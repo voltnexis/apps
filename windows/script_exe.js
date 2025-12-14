@@ -1281,7 +1281,7 @@ const apps = [
   "name": "Xiaomi Mi Flash Tool",
   "developer": "Xiaomi Inc.",
   "tagline": "The official utility for flashing Xiaomi Fastboot ROMs.",
-  "icon": "https://i.imgur.com/MiFlash_Icon.png",
+  "icon": "https://xiaomiflashtool.com/wp-content/uploads/splash.png",
   "rating": 4.6,
   "category": "utility",
   "trending": true,
