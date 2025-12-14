@@ -1381,7 +1381,7 @@ const apps = [
   "name": "QFIL (Qualcomm Flash Image Loader)",
   "developer": "Qualcomm Technologies, Inc.",
   "tagline": "Low-level firmware flashing for Qualcomm Snapdragon devices.",
-  "icon": "https://i.imgur.com/QFIL_Icon.png",
+  "icon": "https://cdn.qfiltool.com/wp-content/uploads/latest.png",
   "rating": 4.7,
   "category": "utility",
   "trending": true,
