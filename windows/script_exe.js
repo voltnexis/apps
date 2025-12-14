@@ -1124,7 +1124,14 @@ const apps = [
       "type": "v5.1924-Latest",
       "size": "95MB",
       "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1924_Win.rar"
-    },
+    }   
+  ],
+  "screenshots": [
+    "https://i.imgur.com/SPFlashTool_DownloadTab.png",
+    "https://i.imgur.com/SPFlashTool_ScatterLoading.png",
+    "https://i.imgur.com/SPFlashTool_FormatTab.png"
+  ],
+  "oldVersions": [
     {
       "type": "v5.1916",
       "size": "85MB",
@@ -1219,26 +1226,11 @@ const apps = [
       "type": "v5.1708",
       "size": "95MB",
       "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1708_Win.rar"
-    }   
-  ],
-  "screenshots": [
-    "https://i.imgur.com/SPFlashTool_DownloadTab.png",
-    "https://i.imgur.com/SPFlashTool_ScatterLoading.png",
-    "https://i.imgur.com/SPFlashTool_FormatTab.png"
-  ],
-  "oldVersions": [
-    {
-      "version": "5.2044.00",
-      "released": "May 10, 2024"
-    },
-    {
-      "version": "5.1924.00",
-      "released": "Jan 15, 2024"
     }
   ]
 },
     {
-  "id": 99,
+  "id": 53,
   "name": "Rufus (The Bootable USB Creator)",
   "developer": "Akeo Consulting (Pete Batard)",
   "tagline": "Create bootable USB drives the easy way.",
@@ -1283,6 +1275,96 @@ const apps = [
       
   ],
   "oldVersions": []
+},
+    {
+  "id": 54,
+  "name": "Xiaomi Mi Flash Tool",
+  "developer": "Xiaomi Inc.",
+  "tagline": "The official utility for flashing Xiaomi Fastboot ROMs.",
+  "icon": "https://i.imgur.com/MiFlash_Icon.png",
+  "rating": 4.6,
+  "category": "utility",
+  "trending": true,
+  "new": false,
+  "version": "2022.05.07.0",
+  "size": "90MB",
+  "windowsVersion": "8/10/11 (32-bit & 64-bit)",
+  "lastUpdated": "May 07, 2022",
+  "description": "<h3>🛠️ Features & Purpose</h3> <p>Xiaomi Mi Flash Tool is an essential desktop application for advanced users of Xiaomi, Redmi, and POCO devices. It is primarily used for flashing official <strong>Fastboot ROMs</strong> to restore devices to stock firmware, fix bootloops (soft-bricking), or perform clean system installations.</p> <h3>⚙️ Key Operations</h3> <ul> <li>**Flashing Stock ROM:** Reverts the device to its factory-shipped MIUI or HyperOS firmware.</li> <li>**Device Recovery:** Unbricks devices stuck in a bootloop or Fastboot mode.</li> <li>**Three Flash Modes:** Offers 'Clean All' (full wipe), 'Save User Data' (keeps data), and 'Clean All and Lock' (full wipe and re-locks the bootloader).</li> <li>**Driver Integration:** Includes necessary ADB, Fastboot, and Qualcomm USB drivers in the installer.</li> </ul>",
+  "downloads": [
+    {
+      "type": "20220507",
+      "size": "93.8MB",
+      "url": "https://xiaomiflashtool.com/wp-content/uploads/MiFlash20220507.zip"
+    }
+  ],
+  "screenshots": [
+    "https://i.imgur.com/MiFlash_Main.png",
+    "https://i.imgur.com/MiFlash_Options.png",
+    "https://i.imgur.com/MiFlash_FlashingSuccess.png"
+  ],
+  "oldVersions": [
+    {
+      "type": "20220218",
+      "size": "93.8MB",
+      "url": "official-download-link/MiFlashPro-Latest.zip"
+    },
+    {
+      "type": "Mi Flash Pro (Newer Interface)",
+      "size": "150MB",
+      "url": "official-download-link/MiFlashPro-Latest.zip"
+    },
+      {
+      "type": "Mi Flash Pro (Newer Interface)",
+      "size": "150MB",
+      "url": "official-download-link/MiFlashPro-Latest.zip"
+    },
+      {
+      "type": "Mi Flash Pro (Newer Interface)",
+      "size": "150MB",
+      "url": "official-download-link/MiFlashPro-Latest.zip"
+    },
+      {
+      "type": "Mi Flash Pro (Newer Interface)",
+      "size": "150MB",
+      "url": "official-download-link/MiFlashPro-Latest.zip"
+    },
+      {
+      "type": "Mi Flash Pro (Newer Interface)",
+      "size": "150MB",
+      "url": "official-download-link/MiFlashPro-Latest.zip"
+    },
+      {
+      "type": "Mi Flash Pro (Newer Interface)",
+      "size": "150MB",
+      "url": "official-download-link/MiFlashPro-Latest.zip"
+    },
+      {
+      "type": "Mi Flash Pro (Newer Interface)",
+      "size": "150MB",
+      "url": "official-download-link/MiFlashPro-Latest.zip"
+    },
+      {
+      "type": "Mi Flash Pro (Newer Interface)",
+      "size": "150MB",
+      "url": "official-download-link/MiFlashPro-Latest.zip"
+    },
+      {
+      "type": "Mi Flash Pro (Newer Interface)",
+      "size": "150MB",
+      "url": "official-download-link/MiFlashPro-Latest.zip"
+    },
+      {
+      "type": "Mi Flash Pro (Newer Interface)",
+      "size": "150MB",
+      "url": "official-download-link/MiFlashPro-Latest.zip"
+    },
+      {
+      "type": "Mi Flash Pro (Newer Interface)",
+      "size": "150MB",
+      "url": "official-download-link/MiFlashPro-Latest.zip"
+    },
+  ]
 }
 
 ];
