@@ -1505,6 +1505,35 @@ const apps = [
       "url": "https://samfw.com/Odin/Odin3_v3.13.1_3B_Patched_Samfw.com.rar"
     }
   ]
+},
+    {
+  "id": 57,
+  "name": "SamFW FRP Tool (Samsung Utility)",
+  "developer": "SamFW Team",
+  "tagline": "The all-in-one utility for Samsung FRP, network, and diagnostics.",
+  "icon": "https://play-lh.googleusercontent.com/qFv5sndC4SAfrBW7z5S0-vJ6oQ1sDlmjUpRU3sW64xqJ198wbZf1JCO3QCYKH430BwI=w240-h480-rw",
+  "rating": 4.5,
+  "category": "utility",
+  "trending": true,
+  "new": true,
+  "version": "4.9",
+  "size": "15.2MB",
+  "windowsVersion": "10/11 (Requires .NET Framework)",
+  "lastUpdated": "Nov 21, 2025",
+  "description": "<h3>🔧 Core Functionality</h3> <p>SamFW Tool is an essential third-party utility for technicians and advanced users who frequently work with Samsung devices. It offers specialized functions to bypass security features and perform complex maintenance tasks that are not available in standard tools like Odin.</p> <h3>🔓 Key Features</h3> <ul> <li>**FRP Bypass:** Removes Factory Reset Protection (FRP) on Samsung devices via various methods (Test Mode, MTP, ADB).</li> <li>**Diagnostics:** Reads extensive device information, including Knox status, network lock, and firmware details.</li> <li>**Network/SIM Unlock:** Provides functions to perform network unlocking on supported models.</li> <li>**ADB Functions:** Enables and performs operations via Android Debug Bridge (ADB) mode.</li> <li>**One-Click Solutions:** Features simple, one-click solutions for entering Download Mode, Bypassing Knox, and other common tasks.</li> </ul>",
+  "downloads": [
+    {
+      "type": "v5.1",
+      "size": "15.2MB",
+      "url": "https://samfw.com/SamFwToolSetup_v5.1.zip"
+    }
+  ],
+  "screenshots": [
+    "https://samfw.com/blog_images/samfw-frp-tool-1-0-remove-samsung-frp-one-click/Mu6rbjF.png",
+    "https://samfw.com/blog_images/samfw-frp-tool-32-remove-samsung-frp-one-click-1000x400.png",
+    "https://images.wondershare.com/drfone/article/2024/01/samfw-frp-tool-guide-01.jpg"
+  ],
+  "oldVersions": []
 }
 
 ];
