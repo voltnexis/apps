@@ -1242,7 +1242,7 @@ const apps = [
   "name": "Rufus (The Bootable USB Creator)",
   "developer": "Akeo Consulting (Pete Batard)",
   "tagline": "Create bootable USB drives the easy way.",
-  "icon": "https://i.imgur.com/Rufus_Icon.png",
+  "icon": "https://rufus.ie/pics/rufus-128.png",
   "rating": 4.9,
   "category": "utility",
   "trending": true,
