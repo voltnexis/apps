@@ -1161,7 +1161,7 @@ const apps = [
       "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1820_Win.rar"
     },
       {
-      "type": "v5.1816"",
+      "type": "v5.1816",
       "size": "95MB",
       "url": "https://spflashtool.com/files/SP_Flash_Tool_v5.1816_Win.rar"
     },
