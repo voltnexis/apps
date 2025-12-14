@@ -1236,6 +1236,53 @@ const apps = [
       "released": "Jan 15, 2024"
     }
   ]
+},
+    {
+  "id": 99,
+  "name": "Rufus (The Bootable USB Creator)",
+  "developer": "Akeo Consulting (Pete Batard)",
+  "tagline": "Create bootable USB drives the easy way.",
+  "icon": "https://i.imgur.com/Rufus_Icon.png",
+  "rating": 4.9,
+  "category": "utility",
+  "trending": true,
+  "new": false,
+  "version": "4.11",
+  "size": "1.8MB",
+  "windowsVersion": "7+",
+  "lastUpdated": "Oct 02, 2025",
+  "description": "<h3>🚀 Overview</h3> <p>Rufus is a small utility that helps format and create bootable USB flash drives, such as USB keys/pendrives, memory sticks, etc. It is notably faster than many competitors and supports a wide array of ISO images for Windows, Linux, and other utilities.</p> <h3>✨ Key Features</h3> <ul> <li>**High Speed:** Fast creation of bootable media.</li> <li>**Extensive Compatibility:** Supports BIOS, UEFI, and Secure Boot configurations.</li> <li>**OS Flexibility:** Works with Windows, various Linux distros, and FreeDOS.</li> <li>**Windows 11 Bypass:** Includes options to bypass TPM, Secure Boot, and other Windows 11 installation restrictions.</li> <li>**Portability:** Available as a small, single-executable file with no installation required.</li> </ul>",
+  "downloads": [
+    {
+      "type": "x64",
+      "size": "1.8MB",
+      "url": "https://github.com/pbatard/rufus/releases/download/v4.11/rufus-4.11.exe"
+    },
+    {
+      "type": "Portable(x64)",
+      "size": "1.8MB",
+      "url": "https://github.com/pbatard/rufus/releases/download/v4.11/rufus-4.11p.exe"
+    },
+      {
+      "type": "x86",
+      "size": "1.8MB",
+      "url": "https://github.com/pbatard/rufus/releases/download/v4.11/rufus-4.11_x86.exe"
+    },
+      {
+      "type": "ARM64",
+      "size": "4.9MB",
+      "url": "https://github.com/pbatard/rufus/releases/download/v4.11/rufus-4.11_arm64.exe"
+    }
+  ],
+  "screenshots": [
+    "https://rufus.ie/pics/screenshot1_en.png",
+    "https://rufus.ie/pics/screenshot2_en.png",
+    "https://rufus.ie/pics/screenshot3_en.png",
+    "https://rufus.ie/pics/screenshot4_en.png",
+    "https://rufus.ie/pics/screenshot5_en.png"
+      
+  ],
+  "oldVersions": []
 }
 
 ];
