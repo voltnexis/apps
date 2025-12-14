@@ -1375,6 +1375,91 @@ const apps = [
       "url": "https://mipcsuite.com/mi-flash-tool/download/MiFlash20160401.zip"
     }
   ]
+},
+    {
+  "id": 55,
+  "name": "QFIL (Qualcomm Flash Image Loader)",
+  "developer": "Qualcomm Technologies, Inc.",
+  "tagline": "Low-level firmware flashing for Qualcomm Snapdragon devices.",
+  "icon": "https://i.imgur.com/QFIL_Icon.png",
+  "rating": 4.7,
+  "category": "utility",
+  "trending": true,
+  "new": false,
+  "version": "2.0.3.5",
+  "size": "100MB",
+  "windowsVersion": "7/8/10/11",
+  "lastUpdated": "2025 (latest version found in QPST suite)",
+  "description": "<h3>🚨 Purpose & Function</h3> <p>QFIL is a powerful, low-level flashing utility that is part of the QPST suite. It is indispensable for servicing, repairing, or unbricking (de-bricking) smartphones and tablets utilizing Qualcomm Snapdragon processors by flashing their stock firmware in a special <strong>Emergency Download (EDL) Mode</strong>.</p> <h3>🔥 Key Features</h3> <ul> <li>**EDL Flashing:** Communicates directly with the device's bootloader via the Qualcomm 9008 port for deep-level repair.</li> <li>**ROM Support:** Flashes firmware files in `.mbn` (programmer), `.xml` (rawprogram/patch), and `.elf` formats.</li> <li>**Unbricking:** Highly effective at recovering devices stuck in bootloops or hard-bricked states (no power/screen).</li> <li>**QCN Management:** Provides options to back up and restore the device's QCN file (critical for IMEI/network configuration).</li> </ul>",
+  "downloads": [
+    {
+      "type": "v2.3.0.5",
+      "size": "5.43MB",
+      "url": "https://qfiltool.com/wp-content/uploads/Qualcomm_Flash_Image_Loader_v2.0.3.5.zip"
+    }
+  ],
+  "screenshots": [
+    "https://i.imgur.com/QFIL_MainInterface.png",
+    "https://i.imgur.com/QFIL_DownloadConfig.png",
+    "https://i.imgur.com/QFIL_PortSelection.png"
+  ],
+  "oldVersions": [
+    {
+      "version": "2.0.3.4",
+      "released": "2023",
+      "url": "http://qfiltool.com/wp-content/uploads/Qualcomm_Flash_Image_Loader_v2.0.3.4.zip"
+    },
+    {
+      "version": "2.0.2.3",
+      "released": "2018",
+      "url": "http://qfiltool.com/wp-content/uploads/Qualcomm_Flash_Image_Loader_v2.0.2.3.zip"
+    },
+    {
+      "version": "2.0.1.9",
+      "released": "2018",
+      "url": "http://qfiltool.com/wp-content/uploads/Qualcomm_Flash_Image_Loader_v2.0.1.9.zip"
+    },
+    {
+      "version": "2.0.1.8",
+      "released": "2018",
+      "url": "http://qfiltool.com/wp-content/uploads/Qualcomm_Flash_Image_Loader_v2.0.1.8.zip"
+    },
+    {
+      "version": "2.0.1.7",
+      "released": "2018",
+      "url": "http://qfiltool.com/wp-content/uploads/Qualcomm_Flash_Image_Loader_v2.0.1.7.zip"
+    },
+    {
+      "version": "2.0.1.1",
+      "released": "2018",
+      "url": "http://qfiltool.com/wp-content/uploads/Qualcomm_Flash_Image_Loader_v2.0.1.1.zip"
+    },
+    {
+      "version": "2.0.0.5",
+      "released": "2018",
+      "url": "http://qfiltool.com/wp-content/uploads/Qualcomm_Flash_Image_Loader_v2.0.0.5.zip"
+    },
+    {
+      "version": "2.0.0.4",
+      "released": "2018",
+      "url": "http://qfiltool.com/wp-content/uploads/Qualcomm_Flash_Image_Loader_v2.0.0.4.zip"
+    },
+    {
+      "version": "2.0.0.3",
+      "released": "2018",
+      "url": "http://qfiltool.com/wp-content/uploads/Qualcomm_Flash_Image_Loader_v2.0.0.3.zip"
+    },
+    {
+      "version": "2.0.0.2",
+      "released": "2018",
+      "url": "http://qfiltool.com/wp-content/uploads/Qualcomm_Flash_Image_Loader_v2.0.0.2.zip"
+    },
+    {
+      "version": "2.0.0.0",
+      "released": "2018",
+      "url": "http://qfiltool.com/wp-content/uploads/Qualcomm_Flash_Image_Loader_v2.0.0.0.zip"
+    }
+  ]
 }
 
 ];
