@@ -1307,63 +1307,73 @@ const apps = [
     {
       "type": "20220218",
       "size": "93.8MB",
-      "url": "official-download-link/MiFlashPro-Latest.zip"
+      "url": "https://xiaomiflashtool.com/wp-content/uploads/MiFlash20220218.zip"
     },
     {
-      "type": "Mi Flash Pro (Newer Interface)",
-      "size": "150MB",
-      "url": "official-download-link/MiFlashPro-Latest.zip"
+      "type": "20210813",
+      "size": "92MB",
+      "url": "https://xiaomiflashtool.com/wp-content/uploads/MiFlash20210813.zip"
     },
       {
-      "type": "Mi Flash Pro (Newer Interface)",
-      "size": "150MB",
-      "url": "official-download-link/MiFlashPro-Latest.zip"
+      "type": "20210226",
+      "size": "83.5MB",
+      "url": "https://xiaomiflashtool.com/wp-content/uploads/MiFlash20210226.zip"
     },
       {
-      "type": "Mi Flash Pro (Newer Interface)",
-      "size": "150MB",
-      "url": "official-download-link/MiFlashPro-Latest.zip"
+      "type": "20200314",
+      "size": "90.74MB",
+      "url": "https://xiaomiflashtool.com/wp-content/uploads/MiFlash20200314.zip"
     },
       {
-      "type": "Mi Flash Pro (Newer Interface)",
-      "size": "150MB",
-      "url": "official-download-link/MiFlashPro-Latest.zip"
+      "type": "20191206",
+      "size": "83.32MB",
+      "url": "https://xiaomiflashtool.com/wp-content/uploads/MiFlash20191206.zip"
     },
       {
-      "type": "Mi Flash Pro (Newer Interface)",
-      "size": "150MB",
-      "url": "official-download-link/MiFlashPro-Latest.zip"
+      "type": "20191111",
+      "size": "82.3MB",
+      "url": "https://mipcsuite.com/mi-flash-tool/download/MiFlash20191111.zip"
     },
       {
-      "type": "Mi Flash Pro (Newer Interface)",
-      "size": "150MB",
-      "url": "official-download-link/MiFlashPro-Latest.zip"
+      "type": "20191030",
+      "size": "82.3MB",
+      "url": "https://mipcsuite.com/mi-flash-tool/download/MiFlash20191030.zip"
     },
       {
-      "type": "Mi Flash Pro (Newer Interface)",
-      "size": "150MB",
-      "url": "official-download-link/MiFlashPro-Latest.zip"
+      "type": "20181115",
+      "size": "77MB",
+      "url": "https://mipcsuite.com/mi-flash-tool/download/MiFlash20181115.zip"
     },
       {
-      "type": "Mi Flash Pro (Newer Interface)",
-      "size": "150MB",
-      "url": "official-download-link/MiFlashPro-Latest.zip"
+      "type": "20180528",
+      "size": "50.1MB",
+      "url": "https://mipcsuite.com/mi-flash-tool/download/MiFlash20180528.zip"
     },
       {
-      "type": "Mi Flash Pro (Newer Interface)",
-      "size": "150MB",
-      "url": "official-download-link/MiFlashPro-Latest.zip"
+      "type": "20171212",
+      "size": "35.3MB",
+      "url": "https://mipcsuite.com/mi-flash-tool/download/MiFlash20171212.zip"
     },
       {
-      "type": "Mi Flash Pro (Newer Interface)",
-      "size": "150MB",
-      "url": "official-download-link/MiFlashPro-Latest.zip"
+      "type": "20170425",
+      "size": "46MB",
+      "url": "https://mipcsuite.com/mi-flash-tool/download/MiFlash20170425.zip"
     },
       {
-      "type": "Mi Flash Pro (Newer Interface)",
-      "size": "150MB",
-      "url": "official-download-link/MiFlashPro-Latest.zip"
+      "type": "20161222",
+      "size": "41.8MB",
+      "url": "https://mipcsuite.com/mi-flash-tool/download/MiFlash20161222.zip"
     },
+      {
+      "type": "20160830",
+      "size": "30.3MB",
+      "url": "https://mipcsuite.com/mi-flash-tool/download/MiFlash20160830.zip"
+    },
+      {
+      "type": "20160401",
+      "size": "28MB",
+      "url": "https://mipcsuite.com/mi-flash-tool/download/MiFlash20160401.zip"
+    }
   ]
 }
 
